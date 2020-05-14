@@ -1,0 +1,98 @@
+
+# load county nodes		
+LOAD CSV WITH HEADERS FROM "file:///county.csv" AS line
+CREATE (:County {name: line.name, total_pop: toInteger(line.total_pop),
+	        yrs_life_lost_rate: toInteger(line.yrs_life_lost_rate),
+			pop_poor_perc: toInteger(line.pop_poor_perc),
+			pop_smokers_perc: toInteger(line.pop_smokers_perc),
+			pop_obese_perc: toInteger(line.pop_obese_perc),
+			pop_drink_in_excess_perc: toInteger(line.pop_drink_in_excess_perc),
+			teen_birth_rate: toInteger(line.teen_birth_rate),
+			uninsured_perc: toInteger(line.uninsured_perc),
+			percentile_80_income: toInteger(line.percentile_80_income),
+			percentile_20_income: toInteger(line.percentile_20_income),
+			stratification_ratio: toInteger(line.stratification_ratio),
+			children_in_poverty_perc: toInteger(line.children_in_poverty_perc),
+			unemployed_perc: toInteger(line.unemployed_perc),
+			num_physicians: toInteger(line.num_physicians),
+			num_therapists: toInteger(line.num_therapists),
+			life_expectancy: toInteger(line.life_expectancy),
+			overdose_rate: toInteger(line.overdose_rate),
+			free_lunch_perc: toInteger(line.free_lunch_perc),
+			rural_pop_perc: toInteger(line.rural_pop_perc),
+			pop_over_18_perc: toInteger(line.pop_over_18_perc),
+			pop_over_65_perc: toInteger(line.pop_over_65_perc),
+			black_perc: toInteger(line.black_perc),
+			native_indian_perc: toInteger(line.native_indian_perc),
+			asian_perc: toInteger(line.asian_perc),
+			hispanics_perc: toInteger(line.hispanics_perc),
+			white_perc: toInteger(line.white_perc),
+			female_perc: toInteger(line.female_perc),
+			yrly_cost_of_living_no_children: toInteger(line.yrly_cost_of_living_no_children),
+			hrly_wage_no_children: toInteger(line.hrly_wage_no_children),
+			yrly_cost_of_living_no_children: toInteger(line.yrly_cost_of_living_no_children),
+			hrly_wage_no_children: toInteger(line.hrly_wage_no_children)})
+
+# create county to county relationships
+MATCH (c1:County), (c2:County) WHERE c1.name = 'hennepin' AND c2.name = 'anoka'
+MERGE (c1)-[:ADJ_TO]->(c2)
+
+MATCH (c1:County), (c2:County) WHERE c1.name = 'hennepin' AND c2.name = 'ramsey'
+MERGE (c1)-[:ADJ_TO]->(c2)
+
+MATCH (c1:County), (c2:County) WHERE c1.name = 'ramsey' AND c2.name = 'anoka'
+MERGE (c1)-[:ADJ_TO]->(c2)
+
+# load district nodes
+LOAD CSV WITH HEADERS FROM "file:///district.csv" AS line
+CREATE (:District {districtId: line.districtId, name: line.name,
+					student_pop: toInteger(line.student_pop),
+					avg_eng: toInteger(line.avg_eng),
+					avg_read: toInteger(line.avg_read),
+					avg_sci: toInteger(line.avg_sci),
+					avg_ACT: toInteger(line.avg_ACT)})
+
+# load tract nodes
+LOAD CSV WITH HEADERS FROM "file:///tract.csv" AS line
+CREATE (:Tract {name: line.name,
+		    total_pop: toInteger(line.total_pop), 
+		    median_age: toInteger(line.median_age), 
+		    male_perc: toInteger(line.male_perc),
+		    female_perc: toInteger(line.female_perc),
+		    white_perc: toInteger(line.white_perc),
+		    black_perc: toInteger(line.black_perc),
+		    asian_perc: toInteger(line.asian_perc),
+		    other_ethnicity_perc: toInteger(line.other_perc),
+		    employed_perc: toInteger(line.employed_perc),
+		    income_median: toInteger(line.income_median),
+		    income_mean: toInteger(line.income_mean),
+		    college_undergrad_perc: toInteger(line.college_undergrad_perc),
+		    k_12_enrolled_perc: toInteger(line.k_12_perc),
+		    total_pop_above_25_w_bach_degree: toInteger(line.total_pop_above_25_w_bach_degree_perc),
+		    stem_degree_perc: toInteger(line.stem_degree_perc),
+		    stem_related_degree_perc: toInteger(line.stem_related_degree_perc),
+		    business_degree_perc: toInteger(line.business_degree_perc),
+		    education_degree_perc: toInteger(line.education_degree_perc),
+		    humanities_degree_perc: toInteger(line.humanities_degree_perc),
+		    unemployed_perc: toInteger(line.unemployed_perc),
+		    income_below_poverty_perc: toInteger(line.income_below_poverty_perc),
+		    health_insured_perc: toInteger(line.healthInsured_perc),
+		    households_on_SNAP_perc: toInteger(line.households_on_SNAP_perc),
+       		mean_travel_work: toInteger(line.mean_travel_work),
+       		occupied_housing_units: toInteger(line.occupied_housing_units),
+       		owned_housing_units: toInteger(line.owned_housing_units),
+       		rented_housing_units: toInteger(line.rented_housing_units)})
+
+
+# create county to tract relationships
+MATCH (c:County), (t:Tract) WHERE c.name = 'hennepin' MERGE (c)-[:SERVES]->(t)
+
+# create county to district relationships
+MATCH (c:County), (d:District) WHERE c.name = 'hennepin' MERGE (c)-[:FUNDS]->(d)
+
+# create district to tract relationships
+﻿LOAD CSV WITH HEADERS FROM 'file:///districts_to_tracts.csv' AS line
+WITH line.districtId as district, line.name as name
+MERGE (d:District {districtId:district})
+MERGE (t:Tract {name:name})
+MERGE (d)-[:EDUCATES]->(t)

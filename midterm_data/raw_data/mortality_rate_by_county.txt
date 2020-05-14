@@ -1,0 +1,90 @@
+Census Region	Census Region Code	County	County Code	Deaths	Population	"Death Rate Per 100,000"
+Census Region 2: Midwest	CENS-R2	"Aitkin County, MN"	27001	3510	285635	1228.8
+Census Region 2: Midwest	CENS-R2	"Anoka County, MN"	27003	29161	5829890	500.2
+Census Region 2: Midwest	CENS-R2	"Becker County, MN"	27005	5963	576524	1034.3
+Census Region 2: Midwest	CENS-R2	"Beltrami County, MN"	27007	6501	778970	834.6
+Census Region 2: Midwest	CENS-R2	"Benton County, MN"	27009	5738	677406	847.1
+Census Region 2: Midwest	CENS-R2	"Big Stone County, MN"	27011	1472	96846	1519.9
+Census Region 2: Midwest	CENS-R2	"Blue Earth County, MN"	27013	8142	1109065	734.1
+Census Region 2: Midwest	CENS-R2	"Brown County, MN"	27015	5138	469924	1093.4
+Census Region 2: Midwest	CENS-R2	"Carlton County, MN"	27017	6275	617403	1016.4
+Census Region 2: Midwest	CENS-R2	"Carver County, MN"	27019	6959	1550033	449
+Census Region 2: Midwest	CENS-R2	"Cass County, MN"	27021	5396	509066	1060
+Census Region 2: Midwest	CENS-R2	"Chippewa County, MN"	27023	2677	224586	1192
+Census Region 2: Midwest	CENS-R2	"Chisago County, MN"	27025	6189	904808	684
+Census Region 2: Midwest	CENS-R2	"Clay County, MN"	27027	7546	1017284	741.8
+Census Region 2: Midwest	CENS-R2	"Clearwater County, MN"	27029	1785	154616	1154.5
+Census Region 2: Midwest	CENS-R2	"Cook County, MN"	27031	844	93374	903.9
+Census Region 2: Midwest	CENS-R2	"Cottonwood County, MN"	27033	2671	212961	1254.2
+Census Region 2: Midwest	CENS-R2	"Crow Wing County, MN"	27035	10437	1087092	960.1
+Census Region 2: Midwest	CENS-R2	"Dakota County, MN"	27037	36120	6994845	516.4
+Census Region 2: Midwest	CENS-R2	"Dodge County, MN"	27039	2363	350209	674.7
+Census Region 2: Midwest	CENS-R2	"Douglas County, MN"	27041	6453	636053	1014.5
+Census Region 2: Midwest	CENS-R2	"Faribault County, MN"	27043	3562	269885	1319.8
+Census Region 2: Midwest	CENS-R2	"Fillmore County, MN"	27045	4295	378341	1135.2
+Census Region 2: Midwest	CENS-R2	"Freeborn County, MN"	27047	6519	567251	1149.2
+Census Region 2: Midwest	CENS-R2	"Goodhue County, MN"	27049	8170	821434	994.6
+Census Region 2: Midwest	CENS-R2	"Grant County, MN"	27051	1446	109862	1316.2
+Census Region 2: Midwest	CENS-R2	"Hennepin County, MN"	27053	142512	20721321	687.8
+Census Region 2: Midwest	CENS-R2	"Houston County, MN"	27055	3242	346875	934.6
+Census Region 2: Midwest	CENS-R2	"Hubbard County, MN"	27057	3305	356656	926.7
+Census Region 2: Midwest	CENS-R2	"Isanti County, MN"	27059	4769	653401	729.9
+Census Region 2: Midwest	CENS-R2	"Itasca County, MN"	27061	8757	804441	1088.6
+Census Region 2: Midwest	CENS-R2	"Jackson County, MN"	27063	2084	189617	1099.1
+Census Region 2: Midwest	CENS-R2	"Kanabec County, MN"	27065	2493	286401	870.5
+Census Region 2: Midwest	CENS-R2	"Kandiyohi County, MN"	27067	6654	753304	883.3
+Census Region 2: Midwest	CENS-R2	"Kittson County, MN"	27069	1268	85423	1484.4
+Census Region 2: Midwest	CENS-R2	"Koochiching County, MN"	27071	2841	243921	1164.7
+Census Region 2: Midwest	CENS-R2	"Lac qui Parle County, MN"	27073	1803	133570	1349.9
+Census Region 2: Midwest	CENS-R2	"Lake County, MN"	27075	2464	196580	1253.4
+Census Region 2: Midwest	CENS-R2	"Lake of the Woods County, MN"	27077	825	75263	1096.2
+Census Region 2: Midwest	CENS-R2	"Le Sueur County, MN"	27079	3844	487084	789.2
+Census Region 2: Midwest	CENS-R2	"Lincoln County, MN"	27081	1619	108436	1493
+Census Region 2: Midwest	CENS-R2	"Lyon County, MN"	27083	4058	458929	884.2
+Census Region 2: Midwest	CENS-R2	"McLeod County, MN"	27085	5523	648096	852.2
+Census Region 2: Midwest	CENS-R2	"Mahnomen County, MN"	27087	1033	96211	1073.7
+Census Region 2: Midwest	CENS-R2	"Marshall County, MN"	27089	1559	174467	893.6
+Census Region 2: Midwest	CENS-R2	"Martin County, MN"	27091	4418	375835	1175.5
+Census Region 2: Midwest	CENS-R2	"Meeker County, MN"	27093	4020	415978	966.4
+Census Region 2: Midwest	CENS-R2	"Mille Lacs County, MN"	27095	4802	450267	1066.5
+Census Region 2: Midwest	CENS-R2	"Morrison County, MN"	27097	5517	588093	938.1
+Census Region 2: Midwest	CENS-R2	"Mower County, MN"	27099	7112	700430	1015.4
+Census Region 2: Midwest	CENS-R2	"Murray County, MN"	27101	1811	158403	1143.3
+Census Region 2: Midwest	CENS-R2	"Nicollet County, MN"	27103	3618	573446	630.9
+Census Region 2: Midwest	CENS-R2	"Nobles County, MN"	27105	3322	380373	873.4
+Census Region 2: Midwest	CENS-R2	"Norman County, MN"	27107	1768	125265	1411.4
+Census Region 2: Midwest	CENS-R2	"Olmsted County, MN"	27109	15830	2504485	632.1
+Census Region 2: Midwest	CENS-R2	"Otter Tail County, MN"	27111	11715	1034232	1132.7
+Census Region 2: Midwest	CENS-R2	"Pennington County, MN"	27113	2499	249236	1002.7
+Census Region 2: Midwest	CENS-R2	"Pine County, MN"	27115	4607	514174	896
+Census Region 2: Midwest	CENS-R2	"Pipestone County, MN"	27117	2195	172054	1275.8
+Census Region 2: Midwest	CENS-R2	"Polk County, MN"	27119	6393	563879	1133.8
+Census Region 2: Midwest	CENS-R2	"Pope County, MN"	27121	2504	199426	1255.6
+Census Region 2: Midwest	CENS-R2	"Ramsey County, MN"	27123	70660	9236818	765
+Census Region 2: Midwest	CENS-R2	"Red Lake County, MN"	27125	756	74634	1012.9
+Census Region 2: Midwest	CENS-R2	"Redwood County, MN"	27127	3549	290006	1223.8
+Census Region 2: Midwest	CENS-R2	"Renville County, MN"	27129	3658	288491	1268
+Census Region 2: Midwest	CENS-R2	"Rice County, MN"	27131	7964	1115140	714.2
+Census Region 2: Midwest	CENS-R2	"Rock County, MN"	27133	2222	172975	1284.6
+Census Region 2: Midwest	CENS-R2	"Roseau County, MN"	27135	2426	286478	846.8
+Census Region 2: Midwest	CENS-R2	"St. Louis County, MN"	27137	37992	3599857	1055.4
+Census Region 2: Midwest	CENS-R2	"Scott County, MN"	27139	9148	2171258	421.3
+Census Region 2: Midwest	CENS-R2	"Sherburne County, MN"	27141	7735	1479642	522.8
+Census Region 2: Midwest	CENS-R2	"Sibley County, MN"	27143	2604	273055	953.7
+Census Region 2: Midwest	CENS-R2	"Stearns County, MN"	27145	15522	2616330	593.3
+Census Region 2: Midwest	CENS-R2	"Steele County, MN"	27147	5045	642234	785.5
+Census Region 2: Midwest	CENS-R2	"Stevens County, MN"	27149	1522	176885	860.4
+Census Region 2: Midwest	CENS-R2	"Swift County, MN"	27151	2099	184553	1137.3
+Census Region 2: Midwest	CENS-R2	"Todd County, MN"	27153	3902	442087	882.6
+Census Region 2: Midwest	CENS-R2	"Traverse County, MN"	27155	992	66607	1489.3
+Census Region 2: Midwest	CENS-R2	"Wabasha County, MN"	27157	3335	388778	857.8
+Census Region 2: Midwest	CENS-R2	"Wadena County, MN"	27159	3461	247583	1397.9
+Census Region 2: Midwest	CENS-R2	"Waseca County, MN"	27161	3010	346106	869.7
+Census Region 2: Midwest	CENS-R2	"Washington County, MN"	27163	22059	4112985	536.3
+Census Region 2: Midwest	CENS-R2	"Watonwan County, MN"	27165	2189	204288	1071.5
+Census Region 2: Midwest	CENS-R2	"Wilkin County, MN"	27167	1388	121034	1146.8
+Census Region 2: Midwest	CENS-R2	"Winona County, MN"	27169	7316	914575	799.9
+Census Region 2: Midwest	CENS-R2	"Wright County, MN"	27171	11387	2070121	550.1
+Census Region 2: Midwest	CENS-R2	"Yellow Medicine County, MN"	27173	2238	189887	1178.6
+Census Region 2: Midwest	CENS-R2			702295	93861342	748.2
+				702295	93861342	748.2

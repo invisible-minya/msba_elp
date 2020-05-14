@@ -1,0 +1,24 @@
+districtId,name,student_pop,avg_eng,avg_math,avg_read,avg_sci,avg_ACT
+d2703180,Anoka-Hennepin Public,2854,19,21,21,21,21
+d2705790,Bloomington Public,746,20,22,22,21,21
+d2706240,Brooklyn Center,145,14,16,16,17,16
+d2707200,Buffalo-Hanover-Montrose Public,428,21,22,22,22,22
+d2708190,Eastern Carver County Public,789,22,23,23,23,23
+d2710170,Delano Public,142,22,25,24,24,24
+d2711250,Edina Public,646,27,25,27,26,26
+d2711370,Elk River Public,881,20,22,22,22,21
+d2711670,Minnetonka Public,719,26,25,27,26,26
+d2714220,Eden Prairie Public,718,24,24,24,24,24
+d2714260,Hopkins Public,521,22,22,23,22,22
+d2721240,Minneapolis Public,2090,18,19,19,19,19
+d2722920,Westonka Public,157,23,23,24,23,23
+d2725080,Orono Public,224,25,25,25,25,25
+d2725200,Osseo Public,1559,19,20,20,20,20
+d2731750,Richfield Public,257,17,19,19,19,19
+d2731780,Robbinsdale Public,844,18,19,19,19,19
+d2732070,Rockford Public,74,21,23,23,22,22
+d2733420,St. Anthony-New Brighton Public,167,23,22,23,23,23
+d2733780,St. Louis Park Public,336,21,21,22,22,22
+d2741460,Waconia Public,310,22,23,23,23,23
+d2741910,Watertown-Mayer Public,80,20,22,22,22,22
+d2742160,Wayzata Public,824,25,26,26,26,26

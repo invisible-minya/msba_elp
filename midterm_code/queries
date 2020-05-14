@@ -1,0 +1,61 @@
+
+
+MATCH (d:District) DETACH DELETE d
+
+# migration example
+
+MATCH p=(:County)-[:SERVES]->(:Tract) RETURN p LIMIT 25
+
+# 1) Show district nodes can be added without breaking initial schema
+
+LOAD CSV WITH HEADERS FROM "file:///district.csv" AS line
+CREATE (:District {districtId: line.districtId, name: line.name,
+					student_pop: toInteger(line.student_pop),
+					avg_eng: toInteger(line.avg_eng),
+					avg_read: toInteger(line.avg_read),
+					avg_sci: toInteger(line.avg_sci),
+					avg_ACT: toInteger(line.avg_ACT)})
+
+MATCH (c:County), (d:District) WHERE c.name = 'hennepin' MERGE (c)-[:FUNDS]->(d)
+
+LOAD CSV WITH HEADERS FROM 'file:///districts_to_tracts.csv' AS line
+WITH line.districtId as district, line.name as name
+MERGE (d:District {districtId:district})
+MERGE (t:Tract {name:name})
+MERGE (d)-[:EDUCATES]->(t)
+
+MATCH p=(:County)-[:FUNDS]->(d:District)-[:EDUCATES]->(:Tract) RETURN p LIMIT 75
+
+
+
+
+
+
+
+
+
+# analysis queries
+
+
+# 2) Do minority dominant neighborhoods have a disproportionate school enrollment rate? What is the avg act score of the districts that educate these tracts?
+
+MATCH (d:District)-[:EDUCATES]->(t:Tract) WHERE t.black_perc > 30 RETURN t.name, t.black_perc, t.k_12_enrolled_perc, d.avg_ACT ORDER BY t.black_perc DESC LIMIT 25
+
+MATCH (d:District)-[:EDUCATES]->(t:Tract) WHERE t.white_perc > 90 RETURN t.name, t.white_perc, t.k_12_enrolled_perc, d.avg_ACT ORDER BY t.white_perc DESC LIMIT 25
+
+
+# 3) For tracts with SNAP enrollment rate above 25 vs SNAP enrollment rate below 3, what is the percentage of the population that attends undergrad?
+
+MATCH (t:Tract) WHERE t.households_on_SNAP_perc > 25 RETURN t.name, t.households_on_SNAP_perc, t.college_undergrad_perc ORDER BY t.households_on_SNAP_perc DESC
+
+MATCH (t:Tract) WHERE t.households_on_SNAP_perc < 3 RETURN t.name, t.households_on_SNAP_perc, t.college_undergrad_perc ORDER BY t.households_on_SNAP_perc DESC
+
+
+# 4) What is the HDI of tracts across HC? What is the racial distribution of tracts with lowest HDI?
+
+MATCH (c:County)-[:SERVES]->(t:Tract) WHERE c.name = 'hennepin' RETURN c.life_expectancy, t.college_undergrad_perc, t.k_12_enrolled_perc, t.income_median, t.white_perc, t.black_perc, t.asian_perc, t.other_ethnicity_perc, t.name
+
+
+
+
+
