@@ -1,0 +1,6 @@
+Year,County,num_of_cases_total,num_of_case_gender_Male,num_of_case_gender_Female,num_of_case_gender_Unknown,num_of_case_race_Black or African American,num_of_case_race_White,num_of_case_race_Asian,num_of_case_race_Unknown,num_of_case_race_Native American,num_of_case_group_Adult,num_of_case_group_Juvenile,num_of_case_level_Unknown,num_of_case_level_Felony,num_of_case_level_Gross Misdemeanor,num_of_case_level_Misdemeanor,num_of_case_level_Juvenile Petty Offense,num_of_case_level_Petty Misdemeanor,num_of_case_level_Juvenile Traffic Offense
+2015,Hennepin,14347,10962,3322,63,8244,4381,292,866,564,9170,5177,2908,7203,423,1596,1904,243,70
+2016,Hennepin,14302,11039,3200,63,7887,4680,321,797,617,9043,5259,2649,7333,512,1875,1677,47,209
+2017,Hennepin,15508,11735,3680,93,8398,4856,304,1273,677,10036,5472,2794,8136,475,2150,1617,62,274
+2018,Hennepin,14879,11152,3637,90,8087,4641,279,1192,680,10160,4719,3010,8030,390,1846,1328,64,211
+2019,Hennepin,15200,11549,3579,72,8546,4451,276,1223,704,10604,4596,3432,8128,440,1689,1255,71,185

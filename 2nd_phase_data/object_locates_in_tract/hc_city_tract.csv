@@ -1,0 +1,298 @@
+﻿t.TractId,t.TractName,t.TractNameNumber,c.CityId,c.CityName,c.CityFullName
+27053027700,277.0,Census Tract 277,2705343306,Minnetrista,Minnetrista city
+27053027201,272.01,Census Tract 272.01,2705348580,Orono,Orono city
+27053027001,270.01,Census Tract 270.01,2705325622,Greenfield,Greenfield city
+27053027101,271.01,Census Tract 271.01,2705341480,Medina,Medina city
+27053023300,233.0,Census Tract 233,2705330140,Hopkins,Hopkins city
+27053023400,234.0,Census Tract 234,2705330140,Hopkins,Hopkins city
+27053023200,232.0,Census Tract 232,2705330140,Hopkins,Hopkins city
+27053026910,269.1,Census Tract 269.10,2705315022,Dayton,Dayton city
+27053027202,272.02,Census Tract 272.02,2705338006,Long Lake,Long Lake city
+27053023600,236.0,Census Tract 236,2705318188,Edina,Edina city
+27053023502,235.02,Census Tract 235.02,2705318188,Edina,Edina city
+27053023903,239.03,Census Tract 239.03,2705318188,Edina,Edina city
+27053023802,238.02,Census Tract 238.02,2705318188,Edina,Edina city
+27053023902,239.02,Census Tract 239.02,2705318188,Edina,Edina city
+27053023100,231.0,Census Tract 231,2705318188,Edina,Edina city
+27053023801,238.01,Census Tract 238.01,2705318188,Edina,Edina city
+27053023700,237.0,Census Tract 237,2705318188,Edina,Edina city
+27053024003,240.03,Census Tract 240.03,2705318188,Edina,Edina city
+27053023901,239.01,Census Tract 239.01,2705318188,Edina,Edina city
+27053024004,240.04,Census Tract 240.04,2705318188,Edina,Edina city
+27053024005,240.05,Census Tract 240.05,2705318188,Edina,Edina city
+27053023501,235.01,Census Tract 235.01,2705318188,Edina,Edina city
+27053024006,240.06,Census Tract 240.06,2705318188,Edina,Edina city
+27053024802,248.02,Census Tract 248.02,2705354214,Richfield,Richfield city
+27053024400,244.0,Census Tract 244,2705354214,Richfield,Richfield city
+27053024500,245.0,Census Tract 245,2705354214,Richfield,Richfield city
+27053024700,247.0,Census Tract 247,2705354214,Richfield,Richfield city
+27053024901,249.01,Census Tract 249.01,2705354214,Richfield,Richfield city
+27053024300,243.0,Census Tract 243,2705354214,Richfield,Richfield city
+27053024903,249.03,Census Tract 249.03,2705354214,Richfield,Richfield city
+27053024600,246.0,Census Tract 246,2705354214,Richfield,Richfield city
+27053024902,249.02,Census Tract 249.02,2705354214,Richfield,Richfield city
+27053024200,242.0,Census Tract 242,2705354214,Richfield,Richfield city
+27053024801,248.01,Census Tract 248.01,2705354214,Richfield,Richfield city
+27053024100,241.0,Census Tract 241,2705354214,Richfield,Richfield city
+27053027002,270.02,Census Tract 270.02,2705330842,Independence,Independence city
+27053109400,1094.0,Census Tract 1094,2705343000,Minneapolis,Minneapolis city
+27053011000,110.0,Census Tract 110,2705343000,Minneapolis,Minneapolis city
+27053102900,1029.0,Census Tract 1029,2705343000,Minneapolis,Minneapolis city
+27053111600,1116.0,Census Tract 1116,2705343000,Minneapolis,Minneapolis city
+27053010600,106.0,Census Tract 106,2705343000,Minneapolis,Minneapolis city
+27053010700,107.0,Census Tract 107,2705343000,Minneapolis,Minneapolis city
+27053002700,27.0,Census Tract 27,2705343000,Minneapolis,Minneapolis city
+27053110200,1102.0,Census Tract 1102,2705343000,Minneapolis,Minneapolis city
+27053005901,59.01,Census Tract 59.01,2705343000,Minneapolis,Minneapolis city
+27053005902,59.02,Census Tract 59.02,2705343000,Minneapolis,Minneapolis city
+27053125800,1258.0,Census Tract 1258,2705343000,Minneapolis,Minneapolis city
+27053102100,1021.0,Census Tract 1021,2705343000,Minneapolis,Minneapolis city
+27053104400,1044.0,Census Tract 1044,2705343000,Minneapolis,Minneapolis city
+27053109800,1098.0,Census Tract 1098,2705343000,Minneapolis,Minneapolis city
+27053102000,1020.0,Census Tract 1020,2705343000,Minneapolis,Minneapolis city
+27053110000,1100.0,Census Tract 1100,2705343000,Minneapolis,Minneapolis city
+27053126100,1261.0,Census Tract 1261,2705343000,Minneapolis,Minneapolis city
+27053105700,1057.0,Census Tract 1057,2705343000,Minneapolis,Minneapolis city
+27053109000,1090.0,Census Tract 1090,2705343000,Minneapolis,Minneapolis city
+27053111100,1111.0,Census Tract 1111,2705343000,Minneapolis,Minneapolis city
+27053105500,1055.0,Census Tract 1055,2705343000,Minneapolis,Minneapolis city
+27053012102,121.02,Census Tract 121.02,2705343000,Minneapolis,Minneapolis city
+27053125600,1256.0,Census Tract 1256,2705343000,Minneapolis,Minneapolis city
+27053107400,1074.0,Census Tract 1074,2705343000,Minneapolis,Minneapolis city
+27053102800,1028.0,Census Tract 1028,2705343000,Minneapolis,Minneapolis city
+27053125700,1257.0,Census Tract 1257,2705343000,Minneapolis,Minneapolis city
+27053111500,1115.0,Census Tract 1115,2705343000,Minneapolis,Minneapolis city
+27053008500,85.0,Census Tract 85,2705343000,Minneapolis,Minneapolis city
+27053100800,1008.0,Census Tract 1008,2705343000,Minneapolis,Minneapolis city
+27053105204,1052.04,Census Tract 1052.04,2705343000,Minneapolis,Minneapolis city
+27053105201,1052.01,Census Tract 1052.01,2705343000,Minneapolis,Minneapolis city
+27053105400,1054.0,Census Tract 1054,2705343000,Minneapolis,Minneapolis city
+27053002200,22.0,Census Tract 22,2705343000,Minneapolis,Minneapolis city
+27053111400,1114.0,Census Tract 1114,2705343000,Minneapolis,Minneapolis city
+27053126200,1262.0,Census Tract 1262,2705343000,Minneapolis,Minneapolis city
+27053000101,1.01,Census Tract 1.01,2705343000,Minneapolis,Minneapolis city
+27053106500,1065.0,Census Tract 1065,2705343000,Minneapolis,Minneapolis city
+27053101900,1019.0,Census Tract 1019,2705343000,Minneapolis,Minneapolis city
+27053105100,1051.0,Census Tract 1051,2705343000,Minneapolis,Minneapolis city
+27053008200,82.0,Census Tract 82,2705343000,Minneapolis,Minneapolis city
+27053100200,1002.0,Census Tract 1002,2705343000,Minneapolis,Minneapolis city
+27053110500,1105.0,Census Tract 1105,2705343000,Minneapolis,Minneapolis city
+27053003300,33.0,Census Tract 33,2705343000,Minneapolis,Minneapolis city
+27053103100,1031.0,Census Tract 1031,2705343000,Minneapolis,Minneapolis city
+27053108800,1088.0,Census Tract 1088,2705343000,Minneapolis,Minneapolis city
+27053101800,1018.0,Census Tract 1018,2705343000,Minneapolis,Minneapolis city
+27053102600,1026.0,Census Tract 1026,2705343000,Minneapolis,Minneapolis city
+27053102500,1025.0,Census Tract 1025,2705343000,Minneapolis,Minneapolis city
+27053011703,117.03,Census Tract 117.03,2705343000,Minneapolis,Minneapolis city
+27053110900,1109.0,Census Tract 1109,2705343000,Minneapolis,Minneapolis city
+27053104100,1041.0,Census Tract 1041,2705343000,Minneapolis,Minneapolis city
+27053101200,1012.0,Census Tract 1012,2705343000,Minneapolis,Minneapolis city
+27053104900,1049.0,Census Tract 1049,2705343000,Minneapolis,Minneapolis city
+27053110800,1108.0,Census Tract 1108,2705343000,Minneapolis,Minneapolis city
+27053125900,1259.0,Census Tract 1259,2705343000,Minneapolis,Minneapolis city
+27053109200,1092.0,Census Tract 1092,2705343000,Minneapolis,Minneapolis city
+27053110400,1104.0,Census Tract 1104,2705343000,Minneapolis,Minneapolis city
+27053103900,1039.0,Census Tract 1039,2705343000,Minneapolis,Minneapolis city
+27053106700,1067.0,Census Tract 1067,2705343000,Minneapolis,Minneapolis city
+27053000102,1.02,Census Tract 1.02,2705343000,Minneapolis,Minneapolis city
+27053011704,117.04,Census Tract 117.04,2705343000,Minneapolis,Minneapolis city
+27053104000,1040.0,Census Tract 1040,2705343000,Minneapolis,Minneapolis city
+27053100400,1004.0,Census Tract 1004,2705343000,Minneapolis,Minneapolis city
+27053103700,1037.0,Census Tract 1037,2705343000,Minneapolis,Minneapolis city
+27053106600,1066.0,Census Tract 1066,2705343000,Minneapolis,Minneapolis city
+27053109900,1099.0,Census Tract 1099,2705343000,Minneapolis,Minneapolis city
+27053001100,11.0,Census Tract 11,2705343000,Minneapolis,Minneapolis city
+27053102300,1023.0,Census Tract 1023,2705343000,Minneapolis,Minneapolis city
+27053003200,32.0,Census Tract 32,2705343000,Minneapolis,Minneapolis city
+27053000603,6.03,Census Tract 6.03,2705343000,Minneapolis,Minneapolis city
+27053107500,1075.0,Census Tract 1075,2705343000,Minneapolis,Minneapolis city
+27053000300,3.0,Census Tract 3,2705343000,Minneapolis,Minneapolis city
+27053100500,1005.0,Census Tract 1005,2705343000,Minneapolis,Minneapolis city
+27053108700,1087.0,Census Tract 1087,2705343000,Minneapolis,Minneapolis city
+27053107600,1076.0,Census Tract 1076,2705343000,Minneapolis,Minneapolis city
+27053107000,1070.0,Census Tract 1070,2705343000,Minneapolis,Minneapolis city
+27053110100,1101.0,Census Tract 1101,2705343000,Minneapolis,Minneapolis city
+27053009500,95.0,Census Tract 95,2705343000,Minneapolis,Minneapolis city
+27053012003,120.03,Census Tract 120.03,2705343000,Minneapolis,Minneapolis city
+27053100900,1009.0,Census Tract 1009,2705343000,Minneapolis,Minneapolis city
+27053103600,1036.0,Census Tract 1036,2705343000,Minneapolis,Minneapolis city
+27053103400,1034.0,Census Tract 1034,2705343000,Minneapolis,Minneapolis city
+27053000601,6.01,Census Tract 6.01,2705343000,Minneapolis,Minneapolis city
+27053007700,77.0,Census Tract 77,2705343000,Minneapolis,Minneapolis city
+27053012001,120.01,Census Tract 120.01,2705343000,Minneapolis,Minneapolis city
+27053108600,1086.0,Census Tract 1086,2705343000,Minneapolis,Minneapolis city
+27053100700,1007.0,Census Tract 1007,2705343000,Minneapolis,Minneapolis city
+27053008100,81.0,Census Tract 81,2705343000,Minneapolis,Minneapolis city
+27053105600,1056.0,Census Tract 1056,2705343000,Minneapolis,Minneapolis city
+27053001700,17.0,Census Tract 17,2705343000,Minneapolis,Minneapolis city
+27053103000,1030.0,Census Tract 1030,2705343000,Minneapolis,Minneapolis city
+27053101600,1016.0,Census Tract 1016,2705343000,Minneapolis,Minneapolis city
+27053109700,1097.0,Census Tract 1097,2705343000,Minneapolis,Minneapolis city
+27053008300,83.0,Census Tract 83,2705343000,Minneapolis,Minneapolis city
+27053108900,1089.0,Census Tract 1089,2705343000,Minneapolis,Minneapolis city
+27053002400,24.0,Census Tract 24,2705343000,Minneapolis,Minneapolis city
+27053011800,118.0,Census Tract 118,2705343000,Minneapolis,Minneapolis city
+27053106000,1060.0,Census Tract 1060,2705343000,Minneapolis,Minneapolis city
+27053006800,68.0,Census Tract 68,2705343000,Minneapolis,Minneapolis city
+27053101300,1013.0,Census Tract 1013,2705343000,Minneapolis,Minneapolis city
+27053007801,78.01,Census Tract 78.01,2705343000,Minneapolis,Minneapolis city
+27053104800,1048.0,Census Tract 1048,2705343000,Minneapolis,Minneapolis city
+27053126000,1260.0,Census Tract 1260,2705343000,Minneapolis,Minneapolis city
+27053111200,1112.0,Census Tract 1112,2705343000,Minneapolis,Minneapolis city
+27053003800,38.0,Census Tract 38,2705343000,Minneapolis,Minneapolis city
+27053109300,1093.0,Census Tract 1093,2705343000,Minneapolis,Minneapolis city
+27053106900,1069.0,Census Tract 1069,2705343000,Minneapolis,Minneapolis city
+27053009600,96.0,Census Tract 96,2705343000,Minneapolis,Minneapolis city
+27053008400,84.0,Census Tract 84,2705343000,Minneapolis,Minneapolis city
+27053111300,1113.0,Census Tract 1113,2705343000,Minneapolis,Minneapolis city
+27053109100,1091.0,Census Tract 1091,2705343000,Minneapolis,Minneapolis city
+27053106400,1064.0,Census Tract 1064,2705343000,Minneapolis,Minneapolis city
+27053011998,119.98,Census Tract 119.98,2705343000,Minneapolis,Minneapolis city
+27053108000,1080.0,Census Tract 1080,2705343000,Minneapolis,Minneapolis city
+27053106200,1062.0,Census Tract 1062,2705343000,Minneapolis,Minneapolis city
+27053026909,269.09,Census Tract 269.09,2705355186,Rogers,Rogers city
+27053020801,208.01,Census Tract 208.01,2705314158,Crystal,Crystal city
+27053020804,208.04,Census Tract 208.04,2705314158,Crystal,Crystal city
+27053020902,209.02,Census Tract 209.02,2705314158,Crystal,Crystal city
+27053020700,207.0,Census Tract 207,2705314158,Crystal,Crystal city
+27053021002,210.02,Census Tract 210.02,2705314158,Crystal,Crystal city
+27053020903,209.03,Census Tract 209.03,2705314158,Crystal,Crystal city
+27053021001,210.01,Census Tract 210.01,2705314158,Crystal,Crystal city
+27053027602,276.02,Census Tract 276.02,2705344476,Mound,Mound city
+27053027601,276.01,Census Tract 276.01,2705344476,Mound,Mound city
+27053027300,273.0,Census Tract 273,2705368818,Wayzata,Wayzata city
+27053025401,254.01,Census Tract 254.01,2705306616,Bloomington,Bloomington city
+27053025601,256.01,Census Tract 256.01,2705306616,Bloomington,Bloomington city
+27053025100,251.0,Census Tract 251,2705306616,Bloomington,Bloomington city
+27053025701,257.01,Census Tract 257.01,2705306616,Bloomington,Bloomington city
+27053125500,1255.0,Census Tract 1255,2705306616,Bloomington,Bloomington city
+27053025905,259.05,Census Tract 259.05,2705306616,Bloomington,Bloomington city
+27053025603,256.03,Census Tract 256.03,2705306616,Bloomington,Bloomington city
+27053025403,254.03,Census Tract 254.03,2705306616,Bloomington,Bloomington city
+27053025803,258.03,Census Tract 258.03,2705306616,Bloomington,Bloomington city
+27053025805,258.05,Census Tract 258.05,2705306616,Bloomington,Bloomington city
+27053025801,258.01,Census Tract 258.01,2705306616,Bloomington,Bloomington city
+27053025605,256.05,Census Tract 256.05,2705306616,Bloomington,Bloomington city
+27053025702,257.02,Census Tract 257.02,2705306616,Bloomington,Bloomington city
+27053025906,259.06,Census Tract 259.06,2705306616,Bloomington,Bloomington city
+27053025205,252.05,Census Tract 252.05,2705306616,Bloomington,Bloomington city
+27053025302,253.02,Census Tract 253.02,2705306616,Bloomington,Bloomington city
+27053025903,259.03,Census Tract 259.03,2705306616,Bloomington,Bloomington city
+27053025802,258.02,Census Tract 258.02,2705306616,Bloomington,Bloomington city
+27053025907,259.07,Census Tract 259.07,2705306616,Bloomington,Bloomington city
+27053025301,253.01,Census Tract 253.01,2705306616,Bloomington,Bloomington city
+27053025201,252.01,Census Tract 252.01,2705306616,Bloomington,Bloomington city
+27053026301,263.01,Census Tract 263.01,2705343252,Minnetonka,Minnetonka city
+27053026207,262.07,Census Tract 262.07,2705343252,Minnetonka,Minnetonka city
+27053026202,262.02,Census Tract 262.02,2705343252,Minnetonka,Minnetonka city
+27053026208,262.08,Census Tract 262.08,2705343252,Minnetonka,Minnetonka city
+27053026205,262.05,Census Tract 262.05,2705343252,Minnetonka,Minnetonka city
+27053026404,264.04,Census Tract 264.04,2705343252,Minnetonka,Minnetonka city
+27053026101,261.01,Census Tract 261.01,2705343252,Minnetonka,Minnetonka city
+27053026206,262.06,Census Tract 262.06,2705343252,Minnetonka,Minnetonka city
+27053026201,262.01,Census Tract 262.01,2705343252,Minnetonka,Minnetonka city
+27053026402,264.02,Census Tract 264.02,2705343252,Minnetonka,Minnetonka city
+27053026103,261.03,Census Tract 261.03,2705343252,Minnetonka,Minnetonka city
+27053026104,261.04,Census Tract 261.04,2705343252,Minnetonka,Minnetonka city
+27053026403,264.03,Census Tract 264.03,2705343252,Minnetonka,Minnetonka city
+27053026302,263.02,Census Tract 263.02,2705343252,Minnetonka,Minnetonka city
+27053027102,271.02,Census Tract 271.02,2705313168,Corcoran,Corcoran city
+27053027503,275.03,Census Tract 275.03,2705360016,Shorewood,Shorewood city
+27053027504,275.04,Census Tract 275.04,2705360016,Shorewood,Shorewood city
+27053021503,215.03,Census Tract 215.03,2705345628,New Hope,New Hope city
+27053021505,215.05,Census Tract 215.05,2705345628,New Hope,New Hope city
+27053021504,215.04,Census Tract 215.04,2705345628,New Hope,New Hope city
+27053021501,215.01,Census Tract 215.01,2705345628,New Hope,New Hope city
+27053021502,215.02,Census Tract 215.02,2705345628,New Hope,New Hope city
+27053027400,274.0,Census Tract 274,2705315148,Deephaven,Deephaven city
+27053020500,205.0,Census Tract 205,2705307948,Brooklyn Center,Brooklyn Center city
+27053020304,203.04,Census Tract 203.04,2705307948,Brooklyn Center,Brooklyn Center city
+27053020303,203.03,Census Tract 203.03,2705307948,Brooklyn Center,Brooklyn Center city
+27053020400,204.0,Census Tract 204,2705307948,Brooklyn Center,Brooklyn Center city
+27053020600,206.0,Census Tract 206,2705307948,Brooklyn Center,Brooklyn Center city
+27053020302,203.02,Census Tract 203.02,2705307948,Brooklyn Center,Brooklyn Center city
+27053020200,202.0,Census Tract 202,2705307948,Brooklyn Center,Brooklyn Center city
+27053020301,203.01,Census Tract 203.01,2705307948,Brooklyn Center,Brooklyn Center city
+27053027203,272.03,Census Tract 272.03,2705343270,Minnetonka Beach,Minnetonka Beach city
+27053026702,267.02,Census Tract 267.02,2705349012,Osseo,Osseo city
+27053026020,260.2,Census Tract 260.20,2705318116,Eden Prairie,Eden Prairie city
+27053026015,260.15,Census Tract 260.15,2705318116,Eden Prairie,Eden Prairie city
+27053026019,260.19,Census Tract 260.19,2705318116,Eden Prairie,Eden Prairie city
+27053026005,260.05,Census Tract 260.05,2705318116,Eden Prairie,Eden Prairie city
+27053026022,260.22,Census Tract 260.22,2705318116,Eden Prairie,Eden Prairie city
+27053026006,260.06,Census Tract 260.06,2705318116,Eden Prairie,Eden Prairie city
+27053026018,260.18,Census Tract 260.18,2705318116,Eden Prairie,Eden Prairie city
+27053026016,260.16,Census Tract 260.16,2705318116,Eden Prairie,Eden Prairie city
+27053026013,260.13,Census Tract 260.13,2705318116,Eden Prairie,Eden Prairie city
+27053026014,260.14,Census Tract 260.14,2705318116,Eden Prairie,Eden Prairie city
+27053026007,260.07,Census Tract 260.07,2705318116,Eden Prairie,Eden Prairie city
+27053026021,260.21,Census Tract 260.21,2705318116,Eden Prairie,Eden Prairie city
+27053026815,268.15,Census Tract 268.15,2705307966,Brooklyn Park,Brooklyn Park city
+27053026818,268.18,Census Tract 268.18,2705307966,Brooklyn Park,Brooklyn Park city
+27053026814,268.14,Census Tract 268.14,2705307966,Brooklyn Park,Brooklyn Park city
+27053026820,268.2,Census Tract 268.20,2705307966,Brooklyn Park,Brooklyn Park city
+27053026819,268.19,Census Tract 268.19,2705307966,Brooklyn Park,Brooklyn Park city
+27053026823,268.23,Census Tract 268.23,2705307966,Brooklyn Park,Brooklyn Park city
+27053026811,268.11,Census Tract 268.11,2705307966,Brooklyn Park,Brooklyn Park city
+27053026810,268.1,Census Tract 268.10,2705307966,Brooklyn Park,Brooklyn Park city
+27053026822,268.22,Census Tract 268.22,2705307966,Brooklyn Park,Brooklyn Park city
+27053026807,268.07,Census Tract 268.07,2705307966,Brooklyn Park,Brooklyn Park city
+27053026816,268.16,Census Tract 268.16,2705307966,Brooklyn Park,Brooklyn Park city
+27053026812,268.12,Census Tract 268.12,2705307966,Brooklyn Park,Brooklyn Park city
+27053026809,268.09,Census Tract 268.09,2705307966,Brooklyn Park,Brooklyn Park city
+27053026510,265.1,Census Tract 265.10,2705351730,Plymouth,Plymouth city
+27053026512,265.12,Census Tract 265.12,2705351730,Plymouth,Plymouth city
+27053026507,265.07,Census Tract 265.07,2705351730,Plymouth,Plymouth city
+27053026511,265.11,Census Tract 265.11,2705351730,Plymouth,Plymouth city
+27053026508,265.08,Census Tract 265.08,2705351730,Plymouth,Plymouth city
+27053026609,266.09,Census Tract 266.09,2705351730,Plymouth,Plymouth city
+27053026610,266.1,Census Tract 266.10,2705351730,Plymouth,Plymouth city
+27053026514,265.14,Census Tract 265.14,2705351730,Plymouth,Plymouth city
+27053026605,266.05,Census Tract 266.05,2705351730,Plymouth,Plymouth city
+27053026611,266.11,Census Tract 266.11,2705351730,Plymouth,Plymouth city
+27053026606,266.06,Census Tract 266.06,2705351730,Plymouth,Plymouth city
+27053026509,265.09,Census Tract 265.09,2705351730,Plymouth,Plymouth city
+27053026505,265.05,Census Tract 265.05,2705351730,Plymouth,Plymouth city
+27053026612,266.12,Census Tract 266.12,2705351730,Plymouth,Plymouth city
+27053026613,266.13,Census Tract 266.13,2705351730,Plymouth,Plymouth city
+27053022000,220.0,Census Tract 220,2705357220,St. Louis Park,St. Louis Park city
+27053122600,1226.0,Census Tract 1226,2705357220,St. Louis Park,St. Louis Park city
+27053022400,224.0,Census Tract 224,2705357220,St. Louis Park,St. Louis Park city
+27053022301,223.01,Census Tract 223.01,2705357220,St. Louis Park,St. Louis Park city
+27053023000,230.0,Census Tract 230,2705357220,St. Louis Park,St. Louis Park city
+27053022700,227.0,Census Tract 227,2705357220,St. Louis Park,St. Louis Park city
+27053022102,221.02,Census Tract 221.02,2705357220,St. Louis Park,St. Louis Park city
+27053022101,221.01,Census Tract 221.01,2705357220,St. Louis Park,St. Louis Park city
+27053022901,229.01,Census Tract 229.01,2705357220,St. Louis Park,St. Louis Park city
+27053122500,1225.0,Census Tract 1225,2705357220,St. Louis Park,St. Louis Park city
+27053022200,222.0,Census Tract 222,2705357220,St. Louis Park,St. Louis Park city
+27053022302,223.02,Census Tract 223.02,2705357220,St. Louis Park,St. Louis Park city
+27053022802,228.02,Census Tract 228.02,2705357220,St. Louis Park,St. Louis Park city
+27053022902,229.02,Census Tract 229.02,2705357220,St. Louis Park,St. Louis Park city
+27053022801,228.01,Census Tract 228.01,2705357220,St. Louis Park,St. Louis Park city
+27053026906,269.06,Census Tract 269.06,2705310846,Champlin,Champlin city
+27053026908,269.08,Census Tract 269.08,2705310846,Champlin,Champlin city
+27053026907,269.07,Census Tract 269.07,2705310846,Champlin,Champlin city
+27053026903,269.03,Census Tract 269.03,2705310846,Champlin,Champlin city
+27053021400,214.0,Census Tract 214,2705354808,Robbinsdale,Robbinsdale city
+27053021200,212.0,Census Tract 212,2705354808,Robbinsdale,Robbinsdale city
+27053021300,213.0,Census Tract 213,2705354808,Robbinsdale,Robbinsdale city
+27053021100,211.0,Census Tract 211,2705354808,Robbinsdale,Robbinsdale city
+27053026706,267.06,Census Tract 267.06,2705340166,Maple Grove,Maple Grove city
+27053026714,267.14,Census Tract 267.14,2705340166,Maple Grove,Maple Grove city
+27053026715,267.15,Census Tract 267.15,2705340166,Maple Grove,Maple Grove city
+27053026711,267.11,Census Tract 267.11,2705340166,Maple Grove,Maple Grove city
+27053026710,267.1,Census Tract 267.10,2705340166,Maple Grove,Maple Grove city
+27053026713,267.13,Census Tract 267.13,2705340166,Maple Grove,Maple Grove city
+27053026712,267.12,Census Tract 267.12,2705340166,Maple Grove,Maple Grove city
+27053026708,267.08,Census Tract 267.08,2705340166,Maple Grove,Maple Grove city
+27053026716,267.16,Census Tract 267.16,2705340166,Maple Grove,Maple Grove city
+27053026707,267.07,Census Tract 267.07,2705340166,Maple Grove,Maple Grove city
+27053021700,217.0,Census Tract 217,2705324308,Golden Valley,Golden Valley city
+27053021601,216.01,Census Tract 216.01,2705324308,Golden Valley,Golden Valley city
+27053021602,216.02,Census Tract 216.02,2705324308,Golden Valley,Golden Valley city
+27053021800,218.0,Census Tract 218,2705324308,Golden Valley,Golden Valley city
+27053021900,219.0,Census Tract 219,2705324308,Golden Valley,Golden Valley city
+27053027501,275.01,Census Tract 275.01,2705320078,Excelsior,Excelsior city
+27053020102,201.02,Census Tract 201.02,2705356680,St. Anthony,St. Anthony city
+27053020101,201.01,Census Tract 201.01,2705356680,St. Anthony,St. Anthony city

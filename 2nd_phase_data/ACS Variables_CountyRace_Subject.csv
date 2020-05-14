@@ -1,0 +1,75 @@
+﻿Code,Name in ACS table,Name in Database
+S2802_C06_001E,Estimate!!No computer in household!!Total population in households,inc_no_computer
+S2802_C06_001M,Estimate!!No computer in household!!Total population in households,inc_no_computer_MA
+S2802_C04_001E,Estimate!!With a computer!!Without an Internet Subscription!!Total population in households,inc_computer_no_internet
+S2802_C04_001M,Estimate!!With a computer!!Without an Internet Subscription!!Total population in households,inc_computer_no_internet_MA
+S2802_C02_001E,Estimate!!With a computer!!Broadband Internet Subscription!!Total population in households,inc_computer_internet
+S2802_C02_001M,Estimate!!With a computer!!Broadband Internet Subscription!!Total population in households,inc_computer_internet_MA
+S0501_C01_061E,"Estimate!!Total!!Civilian employed population 16 years and over!!OCCUPATION!!Management, business, science, and arts occupations",emp_occupation_mgmt_biz_science_arts
+S0501_C01_061M,"Estimate!!Total!!Civilian employed population 16 years and over!!OCCUPATION!!Management, business, science, and arts occupations",emp_occupation_mgmt_biz_science_arts_MA
+S0501_C01_062E,Estimate!!Total!!Civilian employed population 16 years and over!!OCCUPATION!!Service occupations,emp_occupation_service
+S0501_C01_062M,Estimate!!Total!!Civilian employed population 16 years and over!!OCCUPATION!!Service occupations,emp_occupation_service_MA
+S0501_C01_066E,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Agriculture, forestry, fishing and hunting, and mining",emp_agriculture_forestry_fishing_hunting_mining
+S0501_C01_066M,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Agriculture, forestry, fishing and hunting, and mining",emp_agriculture_forestry_fishing_hunting_mining_MA
+S0501_C01_067E,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Construction,emp_construction
+S0501_C01_067M,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Construction,emp_construction_MA
+S0501_C01_068E,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Manufacturing,emp_manufacturing
+S0501_C01_068M,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Manufacturing,emp_manufacturing_MA
+S0501_C01_070E,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Retail trade,emp_retail
+S0501_C01_070M,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Retail trade,emp_retail_MA
+S0501_C01_072E,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Information,emp_info
+S0501_C01_072M,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Information,emp_info_MA
+S0501_C01_073E,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Finance and insurance, and real estate and rental and leasing",emp_finanace_insurance_realestate_rental
+S0501_C01_073M,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Finance and insurance, and real estate and rental and leasing",emp_finanace_insurance_realestate_rental_MA
+S0501_C01_075E,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Educational services, and health care and social assistance",emp_edu_health_social
+S0501_C01_075M,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Educational services, and health care and social assistance",emp_edu_health_socia_MA
+S0501_C01_076E,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Arts, entertainment, and recreation, and accommodation and food services",emp_arts_entertainment_recreation_accomodation_food
+S0501_C01_076M,"Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Arts, entertainment, and recreation, and accommodation and food services",emp_arts_entertainment_recreation_accomodation_food_MA
+S0501_C01_077E,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Other services (except public administration),emp_other
+S0501_C01_077M,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Other services (except public administration),emp_other_MA
+S0501_C01_078E,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Public administration,emp_public
+S0501_C01_078M,Estimate!!Total!!Civilian employed population 16 years and over!!INDUSTRY!!Public administration,emp_public_MA
+S0501_C01_026E,Estimate!!Total!!Total population!!Average household size,household_size
+S0501_C01_026M,Estimate!!Total!!Total population!!Average household size,household_size_MA
+S0501_C01_029E,Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Never married,pop_never_married
+S0501_C01_029M,Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Never married,pop_never_married_MA
+S0501_C01_030E,"Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Now married, except separated",pop_married
+S0501_C01_030M,"Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Now married, except separated",pop_married_MA
+S0501_C01_031E,Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Divorced or separated,pop_divorced_separated
+S0501_C01_031M,Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Divorced or separated,pop_divorced_separated_MA
+S0501_C01_032E,Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Widowed,pop_widowed
+S0501_C01_032M,Estimate!!Total!!MARITAL STATUS!!Population 15 years and over!!Widowed,pop_widowed_MA
+S0501_C01_100E,Estimate!!Total!!INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS)!!Households!!With Food Stamp/SNAP benefits,inc_income_with_SNAP
+S0501_C01_100M,Estimate!!Total!!INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS)!!Households!!With Food Stamp/SNAP benefits,inc_income_with_SNAP_MA
+S0501_C01_128E,Estimate!!Total!!Occupied housing units!!VEHICLES AVAILABLE!!None,t_no_vehicles
+S0501_C01_128M,Estimate!!Total!!Occupied housing units!!VEHICLES AVAILABLE!!None,t_no_vehicles_MA
+S0501_C01_129E,Estimate!!Total!!Occupied housing units!!VEHICLES AVAILABLE!!1 or more,t_1+_vehicles
+S0501_C01_129M,Estimate!!Total!!Occupied housing units!!VEHICLES AVAILABLE!!1 or more,t_1+_vehicles_MA
+S0501_C01_130E,Estimate!!Total!!Occupied housing units!!SELECTED CHARACTERISTICS!!No telephone service available,inc_no_telephone
+S0501_C01_130M,Estimate!!Total!!Occupied housing units!!SELECTED CHARACTERISTICS!!No telephone service available,inc_no_telephone_MA
+S0504_C01_046E,Estimate!!Total!!EDUCATIONAL ATTAINMENT!!Population 25 years and over,edu_attainment_pop_a25
+S0504_C01_046M,Estimate!!Total!!EDUCATIONAL ATTAINMENT!!Population 25 years and over,edu_attainment_pop_a25_MA
+S0102_C01_066E,Estimate!!Total!!EMPLOYMENT STATUS!!Population 16 years and over,emp_pop_a16
+S0102_C01_066M,Estimate!!Total!!EMPLOYMENT STATUS!!Population 16 years and over,emp_pop_a16_MA
+S0102_C01_067E,Estimate!!Total!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,emp_labor_force_MA
+S0102_C01_067M,Estimate!!Total!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,emp_labor_force_MA
+S0102_C01_068E,Estimate!!Total!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force,emp_civilian_labor_force
+S0102_C01_068M,Estimate!!Total!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force,emp_civilian_labor_force_MA
+S0102_C01_037M,Estimate!!Total!!EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher,edu_total_pop_above_25_w_bach_degree_MA
+S2502_C01_001M,Estimate!!Occupied housing units!!Occupied housing units,hs_occupied_housing_units_MA
+S2502_C04_001M,Estimate!!Percent owner-occupied housing units!!Occupied housing units,hs_owned_housing_units_MA
+S2502_C05_001M,Estimate!!Renter-occupied housing units!!Occupied housing units,hs_rented_housing_units_MA
+S1901_C01_012M,Estimate!!Households!!Median income (dollars),inc_income_median_MA
+S1901_C01_013M,Estimate!!Households!!Mean income (dollars),inc_income_mean_MA
+S2201_C02_001M,Estimate!!Percent!!Households,inc_households_on_SNAP_perc_est_MA
+S2201_C03_001M,"	Estimate!!Households receiving food stamps/SNAP!!Households",inc_total_enrolled_SNAP_MA
+S0801_C01_046M,Estimate!!Total!!Workers 16 years and over who did not work at home!!TRAVEL TIME TO WORK!!Mean travel time to work (minutes),t_mean_travel_work_MA
+S1701_C02_006M,Estimate!!Below poverty level!!Population for whom poverty status is determined,inc_income_below_poverty_perc_MA
+S2704_C02_010E,Estimate!!Public Coverage!!VA health care coverage alone or in combination,hl_VA_health_coverage
+S2704_C02_010M,Estimate!!Public Coverage!!VA health care coverage alone or in combination,hl_VA_health_coverage_MA
+S2704_C02_026E,Estimate!!Public Coverage!!COVERAGE ALONE!!Public health insurance alone,hl_public_coverage
+S2704_C02_026M,Estimate!!Public Coverage!!COVERAGE ALONE!!Public health insurance alone,hl_public_coverage_MA
+S2704_C02_002E,Estimate!!Public Coverage!!Medicare coverage alone or in combination,hl_medicare_coverage
+S2704_C02_002M,Estimate!!Public Coverage!!Medicare coverage alone or in combination,hl_medicare_coverage_MA
+S2703_C02_001E,Estimate!!Private Coverage!!Civilian noninstitutionalized population,hl_private_coverage
+S2703_C02_001M,Estimate!!Private Coverage!!Civilian noninstitutionalized population,hl_private_coverage_MA

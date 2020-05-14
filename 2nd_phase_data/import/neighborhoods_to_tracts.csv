@@ -1,0 +1,461 @@
+﻿name,neighborhood_name,date
+t3106500,kenwood,2019
+t3107500,seward,2019
+t3100200,webber - camden,2019
+t3000601,columbia park,2019
+t3107600,cooper,2019
+t3110100,ericsson,2019
+t3111100,ericsson,2019
+t3103600,st. anthony west,2019
+t3980000,morris park,2019
+t3012102,morris park,2019
+t3011998,minnehaha,2019
+t3111300,armatage,2019
+t3002200,hawthorne,2019
+t3106700,east isles,2019
+t3106600,east isles,2019
+t3011800,keewaydin,2019
+t3103400,sumner - glenwood,2019
+t3106000,ventura village,2019
+t3126100,downtown east,2019
+t3001700,holland,2019
+t3110500,hiawatha,2019
+t3110900,regina,2019
+t3101200,audubon park,2019
+t3109100,west calhoun,2019
+t3100900,mckinley,2019
+t3100400,mckinley,2019
+t3125800,midtown phillips,2019
+t3011703,hale,2019
+t3008200,lyndale,2019
+t3108900,howe,2019
+t3109000,howe,2019
+t3100500,bottineau,2019
+t3001700,bottineau,2019
+t3011000,northrop,2019
+t3110900,northrop,2019
+t3008100,lowry hill east,2019
+t3007700,lowry hill east,2019
+t3104900,university of minnesota,2019
+t3105700,stevens square - loring heights,2019
+t3111500,windom,2019
+t3109100,linden hills,2019
+t3126200,north loop,2019
+t3111600,field,2019
+t3104000,mid - city industrial,2019
+t3106700,whittier,2019
+t3110100,standish,2019
+t3106500,cedar - isles - dean,2019
+t3001700,sheridan,2019
+t3002400,sheridan,2019
+t3008500,powderhorn park,2019
+t3109700,powderhorn park,2019
+t3105201,loring park,2019
+t3105500,loring park,2019
+t3011800,wenonah,2019
+t3110100,bancroft,2019
+t3003200,willard - hay,2019
+t3003300,willard - hay,2019
+t3103100,st. anthony east,2019
+t3110800,king field,2019
+t3012003,diamond lake,2019
+t3103600,nicollet island - east bank,2019
+t3100700,cleveland,2019
+t3009600,bryant,2019
+t3009500,bryant,2019
+t3100900,folwell,2019
+t3111500,tangletown,2019
+t3126000,phillips west,2019
+t3102600,beltrami,2019
+t3010600,fulton,2019
+t3125900,east phillips,2019
+t3125600,prospect park - east river road,2019
+t3103700,marcy holmes,2019
+t3103600,marcy holmes,2019
+t3107400,longfellow,2019
+t3108800,longfellow,2019
+t3108900,longfellow,2019
+t3109200,carag,2019
+t3000101,shingle creek,2019
+t3108700,corcoran,2019
+t3108600,corcoran,2019
+t3000102,humboldt industrial area,2019
+t3000101,humboldt industrial area,2019
+t3105100,bryn - mawr,2019
+t3012001,kenny,2019
+t3102600,northeast park,2019
+t3100400,camden industrial,2019
+t3100900,camden industrial,2019
+t3000603,waite park,2019
+t3104000,como,2019
+t3000300,victory,2019
+t3104800,cedar riverside,2019
+t3109200,east harriet,2019
+t3108000,ecco,2019
+t3102500,windom park,2019
+t3102600,windom park,2019
+t3111400,lynnhurst,2019
+t3002200,jordan,2019
+t3102100,jordan,2019
+t3106700,lowry hill,2019
+t3105500,lowry hill,2019
+t3104100,harrison,2019
+t3101900,logan park,2019
+t3102600,logan park,2019
+t3102500,logan park,2019
+t3109400,central,2019
+t3001700,marshall terrace,2019
+t3100500,marshall terrace,2019
+t3020500,lind - bohanon,2019
+t3000102,lind - bohanon,2019
+t3104400,downtown west,2019
+t3003300,near - north,2019
+t3105400,elliot park,2019
+t3126100,elliot park,2019
+t3111600,page,2019
+t3011703,page,2019
+t3106500,kenwood,2018
+t3107500,seward,2018
+t3100200,webber - camden,2018
+t3000601,columbia park,2018
+t3107600,cooper,2018
+t3110100,ericsson,2018
+t3111100,ericsson,2018
+t3103600,st. anthony west,2018
+t3980000,morris park,2018
+t3012102,morris park,2018
+t3011998,minnehaha,2018
+t3111300,armatage,2018
+t3002200,hawthorne,2018
+t3106700,east isles,2018
+t3106600,east isles,2018
+t3011800,keewaydin,2018
+t3103400,sumner - glenwood,2018
+t3106000,ventura village,2018
+t3126100,downtown east,2018
+t3001700,holland,2018
+t3110500,hiawatha,2018
+t3110900,regina,2018
+t3101200,audubon park,2018
+t3109100,west calhoun,2018
+t3100900,mckinley,2018
+t3100400,mckinley,2018
+t3125800,midtown phillips,2018
+t3011703,hale,2018
+t3008200,lyndale,2018
+t3108900,howe,2018
+t3109000,howe,2018
+t3100500,bottineau,2018
+t3001700,bottineau,2018
+t3011000,northrop,2018
+t3110900,northrop,2018
+t3008100,lowry hill east,2018
+t3007700,lowry hill east,2018
+t3104900,university of minnesota,2018
+t3105700,stevens square - loring heights,2018
+t3111500,windom,2018
+t3109100,linden hills,2018
+t3126200,north loop,2018
+t3111600,field,2018
+t3104000,mid - city industrial,2018
+t3106700,whittier,2018
+t3110100,standish,2018
+t3106500,cedar - isles - dean,2018
+t3001700,sheridan,2018
+t3002400,sheridan,2018
+t3008500,powderhorn park,2018
+t3109700,powderhorn park,2018
+t3105201,loring park,2018
+t3105500,loring park,2018
+t3011800,wenonah,2018
+t3110100,bancroft,2018
+t3003200,willard - hay,2018
+t3003300,willard - hay,2018
+t3103100,st. anthony east,2018
+t3110800,king field,2018
+t3012003,diamond lake,2018
+t3103600,nicollet island - east bank,2018
+t3100700,cleveland,2018
+t3009600,bryant,2018
+t3009500,bryant,2018
+t3100900,folwell,2018
+t3111500,tangletown,2018
+t3126000,phillips west,2018
+t3102600,beltrami,2018
+t3010600,fulton,2018
+t3125900,east phillips,2018
+t3125600,prospect park - east river road,2018
+t3103700,marcy holmes,2018
+t3103600,marcy holmes,2018
+t3107400,longfellow,2018
+t3108800,longfellow,2018
+t3108900,longfellow,2018
+t3109200,carag,2018
+t3000101,shingle creek,2018
+t3108700,corcoran,2018
+t3108600,corcoran,2018
+t3000102,humboldt industrial area,2018
+t3000101,humboldt industrial area,2018
+t3105100,bryn - mawr,2018
+t3012001,kenny,2018
+t3102600,northeast park,2018
+t3100400,camden industrial,2018
+t3100900,camden industrial,2018
+t3000603,waite park,2018
+t3104000,como,2018
+t3000300,victory,2018
+t3104800,cedar riverside,2018
+t3109200,east harriet,2018
+t3108000,ecco,2018
+t3102500,windom park,2018
+t3102600,windom park,2018
+t3111400,lynnhurst,2018
+t3002200,jordan,2018
+t3102100,jordan,2018
+t3106700,lowry hill,2018
+t3105500,lowry hill,2018
+t3104100,harrison,2018
+t3101900,logan park,2018
+t3102600,logan park,2018
+t3102500,logan park,2018
+t3109400,central,2018
+t3001700,marshall terrace,2018
+t3100500,marshall terrace,2018
+t3020500,lind - bohanon,2018
+t3000102,lind - bohanon,2018
+t3104400,downtown west,2018
+t3003300,near - north,2018
+t3105400,elliot park,2018
+t3126100,elliot park,2018
+t3111600,page,2018
+t3011703,page,2018
+t3106500,kenwood,2017
+t3107500,seward,2017
+t3100200,webber - camden,2017
+t3000601,columbia park,2017
+t3107600,cooper,2017
+t3110100,ericsson,2017
+t3111100,ericsson,2017
+t3103600,st. anthony west,2017
+t3980000,morris park,2017
+t3012102,morris park,2017
+t3011998,minnehaha,2017
+t3111300,armatage,2017
+t3002200,hawthorne,2017
+t3106700,east isles,2017
+t3106600,east isles,2017
+t3011800,keewaydin,2017
+t3103400,sumner - glenwood,2017
+t3106000,ventura village,2017
+t3126100,downtown east,2017
+t3001700,holland,2017
+t3110500,hiawatha,2017
+t3110900,regina,2017
+t3101200,audubon park,2017
+t3109100,west calhoun,2017
+t3100900,mckinley,2017
+t3100400,mckinley,2017
+t3125800,midtown phillips,2017
+t3011703,hale,2017
+t3008200,lyndale,2017
+t3108900,howe,2017
+t3109000,howe,2017
+t3100500,bottineau,2017
+t3001700,bottineau,2017
+t3011000,northrop,2017
+t3110900,northrop,2017
+t3008100,lowry hill east,2017
+t3007700,lowry hill east,2017
+t3104900,university of minnesota,2017
+t3105700,stevens square - loring heights,2017
+t3111500,windom,2017
+t3109100,linden hills,2017
+t3126200,north loop,2017
+t3111600,field,2017
+t3104000,mid - city industrial,2017
+t3106700,whittier,2017
+t3110100,standish,2017
+t3106500,cedar - isles - dean,2017
+t3001700,sheridan,2017
+t3002400,sheridan,2017
+t3008500,powderhorn park,2017
+t3109700,powderhorn park,2017
+t3105201,loring park,2017
+t3105500,loring park,2017
+t3011800,wenonah,2017
+t3110100,bancroft,2017
+t3003200,willard - hay,2017
+t3003300,willard - hay,2017
+t3103100,st. anthony east,2017
+t3110800,king field,2017
+t3012003,diamond lake,2017
+t3103600,nicollet island - east bank,2017
+t3100700,cleveland,2017
+t3009600,bryant,2017
+t3009500,bryant,2017
+t3100900,folwell,2017
+t3111500,tangletown,2017
+t3126000,phillips west,2017
+t3102600,beltrami,2017
+t3010600,fulton,2017
+t3125900,east phillips,2017
+t3125600,prospect park - east river road,2017
+t3103700,marcy holmes,2017
+t3103600,marcy holmes,2017
+t3107400,longfellow,2017
+t3108800,longfellow,2017
+t3108900,longfellow,2017
+t3109200,carag,2017
+t3000101,shingle creek,2017
+t3108700,corcoran,2017
+t3108600,corcoran,2017
+t3000102,humboldt industrial area,2017
+t3000101,humboldt industrial area,2017
+t3105100,bryn - mawr,2017
+t3012001,kenny,2017
+t3102600,northeast park,2017
+t3100400,camden industrial,2017
+t3100900,camden industrial,2017
+t3000603,waite park,2017
+t3104000,como,2017
+t3000300,victory,2017
+t3104800,cedar riverside,2017
+t3109200,east harriet,2017
+t3108000,ecco,2017
+t3102500,windom park,2017
+t3102600,windom park,2017
+t3111400,lynnhurst,2017
+t3002200,jordan,2017
+t3102100,jordan,2017
+t3106700,lowry hill,2017
+t3105500,lowry hill,2017
+t3104100,harrison,2017
+t3101900,logan park,2017
+t3102600,logan park,2017
+t3102500,logan park,2017
+t3109400,central,2017
+t3001700,marshall terrace,2017
+t3100500,marshall terrace,2017
+t3020500,lind - bohanon,2017
+t3000102,lind - bohanon,2017
+t3104400,downtown west,2017
+t3003300,near - north,2017
+t3105400,elliot park,2017
+t3126100,elliot park,2017
+t3111600,page,2017
+t3011703,page,2017
+t3106500,kenwood,2016
+t3107500,seward,2016
+t3100200,webber - camden,2016
+t3000601,columbia park,2016
+t3107600,cooper,2016
+t3110100,ericsson,2016
+t3111100,ericsson,2016
+t3103600,st. anthony west,2016
+t3980000,morris park,2016
+t3012102,morris park,2016
+t3011998,minnehaha,2016
+t3111300,armatage,2016
+t3002200,hawthorne,2016
+t3106700,east isles,2016
+t3106600,east isles,2016
+t3011800,keewaydin,2016
+t3103400,sumner - glenwood,2016
+t3106000,ventura village,2016
+t3126100,downtown east,2016
+t3001700,holland,2016
+t3110500,hiawatha,2016
+t3110900,regina,2016
+t3101200,audubon park,2016
+t3109100,west calhoun,2016
+t3100900,mckinley,2016
+t3100400,mckinley,2016
+t3125800,midtown phillips,2016
+t3011703,hale,2016
+t3008200,lyndale,2016
+t3108900,howe,2016
+t3109000,howe,2016
+t3100500,bottineau,2016
+t3001700,bottineau,2016
+t3011000,northrop,2016
+t3110900,northrop,2016
+t3008100,lowry hill east,2016
+t3007700,lowry hill east,2016
+t3104900,university of minnesota,2016
+t3105700,stevens square - loring heights,2016
+t3111500,windom,2016
+t3109100,linden hills,2016
+t3126200,north loop,2016
+t3111600,field,2016
+t3104000,mid - city industrial,2016
+t3106700,whittier,2016
+t3110100,standish,2016
+t3106500,cedar - isles - dean,2016
+t3001700,sheridan,2016
+t3002400,sheridan,2016
+t3008500,powderhorn park,2016
+t3109700,powderhorn park,2016
+t3105201,loring park,2016
+t3105500,loring park,2016
+t3011800,wenonah,2016
+t3110100,bancroft,2016
+t3003200,willard - hay,2016
+t3003300,willard - hay,2016
+t3103100,st. anthony east,2016
+t3110800,king field,2016
+t3012003,diamond lake,2016
+t3103600,nicollet island - east bank,2016
+t3100700,cleveland,2016
+t3009600,bryant,2016
+t3009500,bryant,2016
+t3100900,folwell,2016
+t3111500,tangletown,2016
+t3126000,phillips west,2016
+t3102600,beltrami,2016
+t3010600,fulton,2016
+t3125900,east phillips,2016
+t3125600,prospect park - east river road,2016
+t3103700,marcy holmes,2016
+t3103600,marcy holmes,2016
+t3107400,longfellow,2016
+t3108800,longfellow,2016
+t3108900,longfellow,2016
+t3109200,carag,2016
+t3000101,shingle creek,2016
+t3108700,corcoran,2016
+t3108600,corcoran,2016
+t3000102,humboldt industrial area,2016
+t3000101,humboldt industrial area,2016
+t3105100,bryn - mawr,2016
+t3012001,kenny,2016
+t3102600,northeast park,2016
+t3100400,camden industrial,2016
+t3100900,camden industrial,2016
+t3000603,waite park,2016
+t3104000,como,2016
+t3000300,victory,2016
+t3104800,cedar riverside,2016
+t3109200,east harriet,2016
+t3108000,ecco,2016
+t3102500,windom park,2016
+t3102600,windom park,2016
+t3111400,lynnhurst,2016
+t3002200,jordan,2016
+t3102100,jordan,2016
+t3106700,lowry hill,2016
+t3105500,lowry hill,2016
+t3104100,harrison,2016
+t3101900,logan park,2016
+t3102600,logan park,2016
+t3102500,logan park,2016
+t3109400,central,2016
+t3001700,marshall terrace,2016
+t3100500,marshall terrace,2016
+t3020500,lind - bohanon,2016
+t3000102,lind - bohanon,2016
+t3104400,downtown west,2016
+t3003300,near - north,2016
+t3105400,elliot park,2016
+t3126100,elliot park,2016
+t3111600,page,2016
+t3011703,page,2016

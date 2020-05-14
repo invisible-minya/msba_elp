@@ -1,0 +1,99 @@
+### Data Profiling
+
+MATCH (n) RETURN count(n)
+
+MATCH ()-->() RETURN count(*)
+
+CALL db.labels()
+
+MATCH (n) WHERE rand() <= 0.1 RETURN DISTINCT labels(n) AS labels,
+avg(size(keys(n))) as Avg_PropertyCount,
+avg(size( (n)-[]-() ) ) as Avg_RelationshipCount
+
+CALL db.schema()
+
+
+### Graph Inspection
+
+MATCH p = ((co:County)-[:SERVES]->(ci:City)<-[:LOCATES_IN]-(t:Tract)<-[:LOCATES_IN]-(h:Hospital)) WHERE ci.name = 'edina' AND ci.date = 2018 AND t.name = 't3024005' RETURN p
+
+MATCH p = ((n:Neighborhood)-[:LOCATES_IN]->(t:Tract)<-[:EDUCATES]-(d:District)<-[:SUPPORTS]-(co:County)) WHERE t.name = 't3126100' AND t.date = 2018 RETURN p
+
+MATCH p = ((co:County)-[:SERVES]->(t:Tract)) WHERE t.name = 't3104900' AND t.date = 2018 RETURN p
+
+### Graph Querying
+
+## Empower community to reduce chronic disease
+# Assess how Hennepin County ranks in terms of health indicators compared to top 25 largest counties in MN
+MATCH (c:County) WHERE c.date = 2019 RETURN c.name AS County, c.hl_yrs_life_lost_rate AS Yrs_Life_Lost_Rate, c.hl_uninsured_perc AS Uninsured_Perc, c.total_pop / c.hl_num_physicians AS Ppl_Per_Physician, c.total_pop / c.hl_num_therapists AS Ppl_Per_Therapist ORDER BY Yrs_Life_Lost_Rate
+
+# Mental health seems to be the most lacking indicator in Hennepin County
+MATCH (t:Tract) WHERE t.date = 2018 RETURN avg(t.hl_poor_mental_health_prev) AS average, stDev(t.hl_poor_mental_health_prev) AS sd
+
+# create threshold to determine bad mental health based on mean & std
+MATCH (t:Tract) WHERE t.date = 2018 AND t.hl_poor_mental_health_prev > 15.6 RETURN count(*) 
+
+# Find a pocket of adjacent tracts that have poor mental health
+MATCH p = ((t1:Tract)<-[:ADJ_TO]->(t2:Tract)) WHERE t1.date = 2018 AND t1.hl_poor_mental_health_prev > 15.6 AND t2.hl_poor_mental_health_prev > 15.6 RETURN p
+
+MATCH p = ((t1:Tract)<-[:ADJ_TO]->(t2:Tract)) WHERE t1.date = 2018 AND t1.hl_poor_mental_health_prev > 15.6 AND t2.hl_poor_mental_health_prev > 15.6 RETURN DISTINCT t1.name
+
+# How does the ancillary income of poor mental health tracts compare to tracts on average in Hennepin County 
+MATCH p = ((t1:Tract)<-[:ADJ_TO]->(t2:Tract)) WHERE t1.date = 2018 AND t1.hl_poor_mental_health_prev > 15.6 AND t2.hl_poor_mental_health_prev > 15.6 RETURN DISTINCT avg(t1.inc_income_median - t1.inc_median_monthly_rent) AS ancillary_income
+
+MATCH (t:Tract) WHERE t.date = 2018 RETURN avg(t.inc_income_median - t.inc_median_monthly_rent) AS ancillary_income
+
+
+## Increase post-secondary education opportunites
+# pull main attributes of districts
+MATCH (d:District)
+WHERE d.date = 2018 
+RETURN d.name, d.avg_ACT, d.num_teachers, d.pop_5_17, d.num_households_poverty
+
+# bad ACT threshold was identified and Minneapolis public educates to many tracts and it was hindering query results
+MATCH p = ((d:District)-[:EDUCATES]->(t:Tract))
+WHERE d.date = 2018 AND d.avg_ACT < 20.5 AND d.name <> 'Minneapolis Public'
+RETURN p
+
+# identify tracts with low ACT and their attributes
+MATCH (d:District)
+WHERE d.name IN ['Anoka-Hennepin Public', 'Brooklyn Center', 'Osseo Public', 'Richfield Public', 'Robbinsdale Public']
+RETURN d.name, d.date, d.avg_ACT
+
+# what is the racial distributions of the tracts that are educated by these low ACT districts?
+MATCH (d:District)-[:EDUCATES]->(t:Tract)
+WHERE d.date = 2018 AND d.name IN ['Brooklyn Center', 'Richfield Public']
+RETURN t.name, t.white_perc, t.black_perc, t.asian_perc, t.total_pop, t.edu_total_pop_above_25_w_bach_degree
+
+
+## Increase housing supports to reduce homelessness
+# the best measure of homelessness risk was found to be income below poverty % after exploring a number of variables
+MATCH (t:Tract) WHERE t.date = 2018 RETURN t.inc_income_below_poverty_perc
+
+# how many tracts constitute the bubble in the pdf at the tail of its distribution?
+MATCH (t:Tract) WHERE t.date = 2018 AND t.inc_income_below_poverty_perc > 40 RETURN count(*)
+
+# Is there a pocket of these tracts that are adjacent to one another?
+MATCH p = ((t1:Tract)<-[:ADJ_TO]->(t2:Tract)) WHERE t1.date = 2018 AND t1.inc_income_below_poverty_perc > 40 AND t2.inc_income_below_poverty_perc > 40 RETURN p
+
+# Get a sense of the homeless supports at the disposal of Hennepin County
+MATCH (f:FoodShelf) WHERE f.date = 2018 RETURN count(*)
+
+MATCH(s:HomelessShelter) WHERE s.date = 2018 RETURN count(*)
+
+MATCH (t:Tract) WHERE t.date = 2018 RETURN t.hs_subsidized_units, t.hs_occupied_units
+
+# what portion of this housing supoort inventory is allocated to the pocket of at-risk of homelessness tracts
+MATCH p = ((t:Tract)<-[:LOCATES_IN]-(f:FoodShelf)) WHERE t.date = 2018 AND t.name IN ["t3003800", "t3005901", "t3005902", "t3103900", "t3104000", "t3104800", "t3104900", "t3105700", "t3106000", "t3106200", "t3126000"] RETURN p
+
+MATCH p = ((t:Tract)<-[:LOCATES_IN]-(s:HomelessShelter)) WHERE t.date = 2018 AND t.name IN ["t3003800", "t3005901", "t3005902", "t3103900", "t3104000", "t3104800", "t3104900", "t3105700", "t3106000", "t3106200", "t3126000"] RETURN p
+
+MATCH (t:Tract) WHERE t.date = 2018 AND t.name IN ["t3003800", "t3005901", "t3005902", "t3103900", "t3104000", "t3104800", "t3104900", "t3105700", "t3106000", "t3106200", "t3126000"] RETURN t.hs_subsidized_units, t.hs_occupied_units
+
+
+
+
+
+
+
+

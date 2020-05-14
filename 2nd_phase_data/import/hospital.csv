@@ -1,0 +1,57 @@
+﻿hospitalId,date,name,provider,beds,latitude,longititude
+824,2019,abbott northwestern hospital,allina hosp & clinics,972,-93.261365,44.954122
+837,2019,childrens hosp & clinics mpls,childrens hosp & clinics of mn,279,-93.262001,44.95666
+859,2019,fairview southdale hospital,fairview health services,390,-93.326874,44.886296
+869,2019,hennepin county medical ctr,independent,894,-93.262411,44.972104
+882,2019,maple grove hospital,north/fairview health services,130,-93.481067,45.132987
+900,2019,north memorial health,north,518,-93.321677,45.013807
+907,2019,park nicollet methodist hosp,healthpartners,426,-93.361999,44.928987
+909,2019,phillips eye institute,allina hosp & clinics,20,-93.264322,44.960004
+914,2019,regency hospital of mpls llc,regency,92,-93.333708,44.992304
+934,2019,shriners hospital for children,shriners,40,-93.211048,44.95883
+950,2019,university of mn med ctr,u of m,1700,-93.237081,44.967281
+956,2019,va medical center,va health care system,NA,-93.205766,44.901622
+957,2019,"u of m med cntr, east bank",NA,NA,-93.231474,44.971075
+958,2019,um masonic childrens hospital,NA,NA,-93.237292,44.96643
+824,2018,abbott northwestern hospital,allina hosp & clinics,972,-93.261365,44.954122
+837,2018,childrens hosp & clinics mpls,childrens hosp & clinics of mn,279,-93.262001,44.95666
+859,2018,fairview southdale hospital,fairview health services,390,-93.326874,44.886296
+869,2018,hennepin county medical ctr,independent,894,-93.262411,44.972104
+882,2018,maple grove hospital,north/fairview health services,130,-93.481067,45.132987
+900,2018,north memorial health,north,518,-93.321677,45.013807
+907,2018,park nicollet methodist hosp,healthpartners,426,-93.361999,44.928987
+909,2018,phillips eye institute,allina hosp & clinics,20,-93.264322,44.960004
+914,2018,regency hospital of mpls llc,regency,92,-93.333708,44.992304
+934,2018,shriners hospital for children,shriners,40,-93.211048,44.95883
+950,2018,university of mn med ctr,u of m,1700,-93.237081,44.967281
+956,2018,va medical center,va health care system,NA,-93.205766,44.901622
+957,2018,"u of m med cntr, east bank",NA,NA,-93.231474,44.971075
+958,2018,um masonic childrens hospital,NA,NA,-93.237292,44.96643
+824,2017,abbott northwestern hospital,allina hosp & clinics,972,-93.261365,44.954122
+837,2017,childrens hosp & clinics mpls,childrens hosp & clinics of mn,279,-93.262001,44.95666
+859,2017,fairview southdale hospital,fairview health services,390,-93.326874,44.886296
+869,2017,hennepin county medical ctr,independent,894,-93.262411,44.972104
+882,2017,maple grove hospital,north/fairview health services,130,-93.481067,45.132987
+900,2017,north memorial health,north,518,-93.321677,45.013807
+907,2017,park nicollet methodist hosp,healthpartners,426,-93.361999,44.928987
+909,2017,phillips eye institute,allina hosp & clinics,20,-93.264322,44.960004
+914,2017,regency hospital of mpls llc,regency,92,-93.333708,44.992304
+934,2017,shriners hospital for children,shriners,40,-93.211048,44.95883
+950,2017,university of mn med ctr,u of m,1700,-93.237081,44.967281
+956,2017,va medical center,va health care system,NA,-93.205766,44.901622
+957,2017,"u of m med cntr, east bank",NA,NA,-93.231474,44.971075
+958,2017,um masonic childrens hospital,NA,NA,-93.237292,44.96643
+824,2016,abbott northwestern hospital,allina hosp & clinics,972,-93.261365,44.954122
+837,2016,childrens hosp & clinics mpls,childrens hosp & clinics of mn,279,-93.262001,44.95666
+859,2016,fairview southdale hospital,fairview health services,390,-93.326874,44.886296
+869,2016,hennepin county medical ctr,independent,894,-93.262411,44.972104
+882,2016,maple grove hospital,north/fairview health services,130,-93.481067,45.132987
+900,2016,north memorial health,north,518,-93.321677,45.013807
+907,2016,park nicollet methodist hosp,healthpartners,426,-93.361999,44.928987
+909,2016,phillips eye institute,allina hosp & clinics,20,-93.264322,44.960004
+914,2016,regency hospital of mpls llc,regency,92,-93.333708,44.992304
+934,2016,shriners hospital for children,shriners,40,-93.211048,44.95883
+950,2016,university of mn med ctr,u of m,1700,-93.237081,44.967281
+956,2016,va medical center,va health care system,NA,-93.205766,44.901622
+957,2016,"u of m med cntr, east bank",NA,NA,-93.231474,44.971075
+958,2016,um masonic childrens hospital,NA,NA,-93.237292,44.96643

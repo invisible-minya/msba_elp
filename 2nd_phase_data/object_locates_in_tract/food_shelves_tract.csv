@@ -1,0 +1,56 @@
+﻿fs.FoodShelvesId,fs.ProviderId,fs.ProviderName,t.TractId,t.TractName,t.TractNameNumber
+1,13101030,Intercongregation Communities Association - ICA,27053026103,261.03,Census Tract 261.03
+2,13103915,Pillsbury United Communities,27053106000,1060.0,Census Tract 1060
+3,13101230,Christians Reaching Out in Social Service (CROSS),27053026909,269.09,Census Tract 269.09
+4,13103838,Lovepower Church,27053104800,1048.0,Census Tract 1048
+5,13101030,Intercongregation Communities Association - ICA,27053026101,261.01,Census Tract 261.01
+6,13101098,People Reaching Out to Other People (PROP),27053026006,260.06,Census Tract 260.06
+7,13100915,NorthPoint Health and Wellness Center,27053002700,27.0,Census Tract 27
+7,13100915,NorthPoint Health and Wellness Center,27053102800,1028.0,Census Tract 1028
+8,13101304,Interfaith Outreach & Community Partners (IOCP),27053026606,266.06,Census Tract 266.06
+9,13848,Masjid An-Nur,27053102900,1029.0,Census Tract 1029
+10,12571,Grace Lutheran of NE Minneapolis,27053102500,1025.0,Census Tract 1025
+11,13100755,East Side Neighborhood Services (ESNS),27053101900,1019.0,Census Tract 1019
+12,13103830,Salvation Army - Metro Area,27053002200,22.0,Census Tract 22
+13,13100675,Community Emergency Service (CES),27053106000,1060.0,Census Tract 1060
+14,13100916,Plymouth Congregational Church,27053105600,1056.0,Census Tract 1056
+15,13101662,Minnesota Teamsters Service Bureau,27053125600,1256.0,Census Tract 1256
+16,13103915,Pillsbury United Communities,27053106000,1060.0,Census Tract 1060
+17,13101110,Westonka Food Shelf - St. Vincent De Paul Society,27053027602,276.02,Census Tract 276.02
+18,12901,New Creation Baptist Church,27053011703,117.03,Census Tract 117.03
+18,12901,New Creation Baptist Church,27053011000,110.0,Census Tract 110
+19,9823,Good in the 'Hood,27053025205,252.05,Census Tract 252.05
+20,13103476,Bethesda Baptist Church,27053005901,59.01,Census Tract 59.01
+21,13103830,Salvation Army - Metro Area,27053125900,1259.0,Census Tract 1259
+21,13103830,Salvation Army - Metro Area,27053008500,85.0,Census Tract 85
+22,13101678,"Aliveness Project, The",27053109900,1099.0,Census Tract 1099
+23,13100983,Volunteers of America - Minnesota,27053109200,1092.0,Census Tract 1092
+24,13101074,Simpson Food Pantry,27053007801,78.01,Census Tract 78.01
+25,13100814,Joyce Uptown Food Shelf,27053008100,81.0,Census Tract 81
+26,13100776,Division of Indian Work,27053008500,85.0,Census Tract 85
+26,13100776,Division of Indian Work,27053125800,1258.0,Census Tract 1258
+27,13101411,Maple Plain Area Food Shelf,27053027002,270.02,Census Tract 270.02
+28,9625,North Suburban Emergency Assistance Response (NEAR),27053020804,208.04,Census Tract 208.04
+29,13103915,Pillsbury United Communities,27053104800,1048.0,Census Tract 1048
+30,13103725,Church of The Incarnation Food Shelf,27053109900,1099.0,Census Tract 1099
+31,2844,HopeBridge Food Shelf,27053021503,215.03,Census Tract 215.03
+32,1174,Calvary Lutheran Church - Minneapolis,27053009600,96.0,Census Tract 96
+33,13101898,Western Communities Action Network (WeCAN),27053027602,276.02,Census Tract 276.02
+34,13835,The Camden Promise,27053000102,1.02,Census Tract 1.02
+35,13103830,Salvation Army - Metro Area,27053104400,1044.0,Census Tract 1044
+36,13847,Minnehaha United Methodist Church,27053011998,119.98,Census Tract 119.98
+37,12051,St. Olaf Samaritan Ministry,27053104400,1044.0,Census Tract 1044
+38,13101086,St. Louis Park Emergency Program (STEP),27053122600,1226.0,Census Tract 1226
+39,13100755,East Side Neighborhood Services (ESNS) Glendale Food Shelf,27053104900,1049.0,Census Tract 1049
+40,13100917,Sabathani Community Center,27053109400,1094.0,Census Tract 1094
+40,13100917,Sabathani Community Center,27053110000,1100.0,Census Tract 1100
+41,13101172,The Food Group,27053021502,215.02,Census Tract 215.02
+42,15324,Rescue Now Services,27053102500,1025.0,Census Tract 1025
+43,13100681,Community Emergency Assistance Programs,27053020400,204.0,Census Tract 204
+44,13101614,Sharing and Caring Hands,27053126200,1262.0,Census Tract 1262
+45,13100980,"VEAP, Inc. - Volunteers Enlisted to Assist People",27053125500,1255.0,Census Tract 1255
+46,13100927,PRISM,27053021900,219.0,Census Tract 219
+47,13100681,Community Emergency Assistance Programs,27053020302,203.02,Census Tract 203.02
+48,13101418,CAPI USA,27053107400,1074.0,Census Tract 1074
+48,13101418,CAPI USA,27053108900,1089.0,Census Tract 1089
+49,2882,St. Bonaventure Catholic Community,27053025205,252.05,Census Tract 252.05

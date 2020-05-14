@@ -1,0 +1,29 @@
+﻿Code,Name in ACS table,Name in Database
+DP02_0055PE,Percent Estimate!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8),edu_enrollment_k8
+DP02_0055PM,Percent Estimate!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8),edu_enrollment_k8_MA
+DP02_0056PE,Percent Estimate!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12),edu_enrollment_9_12
+DP02_0056PM,Percent Estimate!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12),edu_enrollment_9_12_MA
+DP02_0057PE,Percent Estimate!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school,edu_college_undergrad_perc
+DP02_0057PM,Percent Estimate!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school,edu_college_undergrad_perc_MA
+DP03_0004PE,Percent Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Employed,emp_employed_perc
+DP03_0004PM,Percent Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Employed,emp_employed_perc_MA
+DP03_0005PE,Percent Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Unemployed,emp_unemployed_perc
+DP03_0005PM,Percent Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Unemployed,emp_unemployed_perc_MA
+DP03_0119PE,Percent Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families,inc_income_below_poverty_perc
+DP03_0119PM,Percent Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families,inc_income_below_poverty_perc_MA
+DP05_0001E,Estimate!!SEX AND AGE!!Total population,total_pop
+DP05_0001M,Estimate!!SEX AND AGE!!Total population,total_pop_MA
+DP05_0002PE,Percent Estimate!!SEX AND AGE!!Total population!!Male,male_perc
+DP05_0002PM,Percent Estimate!!SEX AND AGE!!Total population!!Male,male_perc_MA
+DP05_0003PE,Percent Estimate!!SEX AND AGE!!Total population!!Female,female_perc
+DP05_0003PM,Percent Estimate!!SEX AND AGE!!Total population!!Female,female_perc_MA
+DP05_0018E,Estimate!!SEX AND AGE!!Total population!!Median age (years),median_age
+DP05_0018M,Estimate!!SEX AND AGE!!Total population!!Median age (years),median_age_MA
+DP05_0037PE,Percent Estimate!!RACE!!Total population!!One race!!White,white_perc
+DP05_0037PM,Percent Estimate!!RACE!!Total population!!One race!!White,white_perc_MA
+DP05_0038PE,Percent Estimate!!RACE!!Total population!!One race!!Black or African American,black_perc
+DP05_0038PM,Percent Estimate!!RACE!!Total population!!One race!!Black or African American,black_perc_MA
+DP05_0044PE,Percent Estimate!!RACE!!Total population!!One race!!Asian,asian_perc
+DP05_0044PM,Percent Estimate!!RACE!!Total population!!One race!!Asian,asian_perc_MA
+DP05_0057PE,Percent Estimate!!RACE!!Total population!!One race!!Some other race,other_ethnicity_perc
+DP05_0057PM,Percent Estimate!!RACE!!Total population!!One race!!Some other race,other_ethnicity_perc_MA

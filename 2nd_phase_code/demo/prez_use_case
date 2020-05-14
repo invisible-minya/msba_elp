@@ -1,0 +1,61 @@
+### Data Profiling ###
+
+CALL db.schema()
+
+MATCH (n) RETURN count(n) AS num_nodes
+
+CALL db.labels()
+
+MATCH ()-->() RETURN count(*) AS num_relationships
+
+MATCH (n) WHERE rand() <= 0.1 RETURN DISTINCT labels(n) AS labels,
+round(avg(size(keys(n)))) as Avg_Property_Count,
+round(avg(size( (n)-[]-() ) )) as Avg_Relationship_Count 
+ORDER BY Avg_Relationship_Count DESC
+
+MATCH p = ((co:County)-[:SERVES]->(t:Tract)) WHERE t.name = 't3104900' AND t.date = 2018 RETURN p
+# blow up the relationships of the tract ^
+
+
+
+### Graph Querying ###
+
+# slide 1: Which tracts in Hennepin County are most at risk of homelessness?
+
+MATCH (t:Tract) WHERE t.date = 2018 RETURN t.name AS tract, t.inc_income_below_poverty_perc
+
+#! (switch to python after queries to showcase py2neo connection) #!
+
+MATCH (t:Tract) WHERE t.date = 2018 AND t.inc_income_below_poverty_perc > 40 RETURN count(*) AS num_impoverished_tracts
+
+
+
+# slide 2: Is there a pocket of tracts in Hennepin County most at risk of homelessness?
+
+MATCH p = ((t1:Tract)<-[:ADJ_TO]->(t2:Tract)) WHERE t1.date = 2018 AND t1.inc_income_below_poverty_perc > 40 AND t2.inc_income_below_poverty_perc > 40 RETURN p
+
+
+
+# slide 3: Does Hennepin County have the necessary housing supports in place for this large pocket of tracts at risk of homelessness?
+
+MATCH (f:FoodShelf) WHERE f.date = 2018 RETURN count(*) AS num_food_shelves
+
+MATCH(s:HomelessShelter) WHERE s.date = 2018 RETURN count(*) AS num_homeless_shelters
+
+MATCH (t:Tract) WHERE t.date = 2018 RETURN t.hs_subsidized_units, t.hs_occupied_units ORDER BY t.hs_subsidized_units
+
+#! (switch to python after queries to showcase py2neo connection) #!
+
+
+
+# slide 4: Does Hennepin County have the necessary housing supports in place for this large pocket of tracts at risk of homelessness?
+
+MATCH (t:Tract) WHERE t.date = 2018 AND t.name IN ["t3003800", "t3005901", "t3005902", "t3103900", "t3104000", "t3104800", "t3104900", "t3105700", "t3106000", "t3106200", "t3126000"] RETURN t.hs_subsidized_units, t.hs_occupied_units ORDER BY t.hs_subsidized_units
+
+#! (switch to python after queries to showcase py2neo connection) #!
+
+MATCH p = ((t:Tract)<-[:LOCATES_IN]-(f:FoodShelf)) WHERE t.date = 2018 AND t.name IN ["t3003800", "t3005901", "t3005902", "t3103900", "t3104000", "t3104800", "t3104900", "t3105700", "t3106000", "t3106200", "t3126000"] RETURN p
+
+MATCH p = ((t:Tract)<-[:LOCATES_IN]-(s:HomelessShelter)) WHERE t.date = 2018 AND t.name IN ["t3003800", "t3005901", "t3005902", "t3103900", "t3104000", "t3104800", "t3104900", "t3105700", "t3106000", "t3106200", "t3126000"] RETURN p
+
+

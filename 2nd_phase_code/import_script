@@ -1,0 +1,286 @@
+# load county nodes		
+LOAD CSV WITH HEADERS FROM "file:///county.csv" AS line
+CREATE (:County {name: line.name, date: toInteger(line.date), total_pop: toInteger(line.total_pop),
+	        hl_yrs_life_lost_rate: toInteger(line.yrs_life_lost_rate),
+			hl_pop_poor_health_perc: toInteger(line.pop_poor_health_perc),
+			hl_pop_smokers_perc: toInteger(line.pop_smokers_perc),
+			hl_pop_obese_perc: toInteger(line.pop_obese_perc),
+			hl_pop_drink_in_excess_perc: toInteger(line.pop_drink_in_excess_perc),
+			hl_teen_birth_rate: toInteger(line.teen_birth_rate),
+			hl_uninsured_perc: toInteger(line.uninsured_perc),
+			inc_percentile_80_income: toInteger(line.percentile_80_income),
+			inc_percentile_20_income: toInteger(line.percentile_20_income),
+			inc_stratification_ratio: toInteger(line.stratification_ratio),
+			inc_children_in_poverty_perc: toInteger(line.children_in_poverty_perc),
+			emp_unemployed_perc: toInteger(line.unemployed_perc),
+			hl_num_physicians: toInteger(line.num_physicians),
+			hl_num_therapists: toInteger(line.num_therapists),
+			hl_life_expectancy: toInteger(line.life_expectancy),
+			hl_overdose_rate: toInteger(line.overdose_rate),
+			inc_free_lunch_perc: toInteger(line.free_lunch_perc),
+			rural_pop_perc: toInteger(line.rural_pop_perc),
+			pop_under_18_perc: toInteger(line.pop_under_18_perc),
+			pop_over_65_perc: toInteger(line.pop_over_65_perc),
+			black_perc: toInteger(line.black_perc),
+			native_indian_perc: toInteger(line.native_indian_perc),
+			asian_perc: toInteger(line.asian_perc),
+			hispanics_perc: toInteger(line.hispanics_perc),
+			white_perc: toInteger(line.white_perc),
+			female_perc: toInteger(line.female_perc),
+			hdi_index: toFloat(line.hdi_index)})
+
+# create county to itself relationships
+MATCH (c1:County), (c2:County) WHERE c1.name = c2.name AND c1.date - 1 = c2.date
+MERGE (c2)-[:PRECEDES]->(c1)
+
+# load city nodes		
+LOAD CSV WITH HEADERS FROM "file:///city.csv" AS line
+CREATE (:City {name: line.name, date: toInteger(line.date), cityId: line.cityId,
+			j_court_cases_total: toInteger(line.num_court_cases_total),
+			j_court_cases_male: toInteger(line.num_court_cases_male),
+			j_court_cases_black: toInteger(line.num_court_cases_black),
+			j_court_cases_white: toInteger(line.num_court_cases_white),
+			j_court_cases_asian: toInteger(line.num_court_cases_asian),
+			j_court_cases_adult: toInteger(line.num_court_cases_adult),
+			j_court_cases_juv: toInteger(line.num_court_cases_juv),
+			j_court_cases_felony: toInteger(line.num_court_cases_felony),
+			j_court_cases_gross_misd: toInteger(line.num_court_cases_gross_misdemeanor),
+			j_court_cases_misd: toInteger(line.num_court_cases_misdemeanor),
+			j_court_cases_petty_misd: toInteger(line.num_court_cases_petty_misdemeanor)})
+
+# create city to itself relationships
+MATCH (c1:City), (c2:City) WHERE c1.name = c2.name AND c1.date - 1 = c2.date
+MERGE (c2)-[:PRECEDES]->(c1)
+
+# create city adjacency relationships
+LOAD CSV WITH HEADERS FROM 'file:///city_adj.csv' AS line
+WITH line.cityId1 as city1, line.cityId2 as city2, toInteger(line.date) as date
+MERGE (c1:City {cityId:city1, date:date})
+MERGE (c2:City {cityId:city2, date:date})
+MERGE (c1)<-[:ADJ_TO]->(c2)
+
+# load neighborhood nodes		
+LOAD CSV WITH HEADERS FROM "file:///neighborhood.csv" AS line
+CREATE (:Neighborhood {name: line.name, date: toInteger(line.date), 
+				  longitude: toInteger(line.longitude), latitude: toInteger(line.latitude),
+				  total_cases: toInteger(line.total_cases),
+				  arson_perc: toInteger(line.arson_perc),
+				  theft_perc: toInteger(line.theft_perc),
+				  assault_perc: toInteger(line.assault_perc),
+				  murder_perc: toInteger(line.murder_perc),
+				  rape_perc: toInteger(line.rape_perc)})
+
+# create neighborhood to itself relationships
+MATCH (n1:Neighborhood), (n2:Neighborhood) WHERE n1.name = n2.name AND n1.date - 1 = n2.date
+MERGE (n2)-[:PRECEDES]->(n1)
+
+# load district nodes
+LOAD CSV WITH HEADERS FROM "file:///district.csv" AS line
+CREATE (:District {districtId: line.districtId, date: toInteger(line.date), name: line.name,
+					student_pop: toInteger(line.student_pop),
+					pop_total: toInteger(line.pop_total),
+					pop_5_17: toInteger(line.pop_5_17),
+					num_households_poverty: toInteger(line.num_households_poverty),
+					num_teachers: toInteger(line.num_teachers),
+					avg_eng: toFloat(line.avg_eng),
+					avg_read: toFloat(line.avg_read),
+					avg_sci: toFloat(line.avg_sci),
+					avg_ACT: toFloat(line.avg_ACT)})
+
+# create district to itself relationships
+MATCH (d1:District), (d2:District) WHERE d1.name = d2.name AND d1.date - 1 = d2.date
+MERGE (d2)-[:PRECEDES]->(d1)
+
+# load food shelf nodes
+LOAD CSV WITH HEADERS FROM "file:///food_shelf.csv" AS line
+CREATE (:FoodShelf {shelfId: line.shelfId, date: toInteger(line.date), name: line.name,
+					provider: line.provider,
+					latitude: toFloat(line.latitude),
+					longitude: toFloat(line.longitude)})
+
+# create food shelf to itself relationships
+MATCH (f1:FoodShelf), (f2:FoodShelf) WHERE f1.shelfId = f2.shelfId AND f1.date - 1 = f2.date
+MERGE (f2)-[:PRECEDES]->(f1)
+
+# load hospital nodes
+LOAD CSV WITH HEADERS FROM "file:///hospital.csv" AS line
+CREATE (:Hospital {hospitalId: line.hospitalId, date: toInteger(line.date), name: line.name,
+					provider: line.provider,
+					num_beds: toInteger(line.beds),
+					latitude: toFloat(line.latitude),
+					longitude: toFloat(line.longitude)})
+
+# create hospital to itself relationships
+MATCH (h1:Hospital), (h2:Hospital) WHERE h1.name = h2.name AND h1.date - 1 = h2.date
+MERGE (h2)-[:PRECEDES]->(h1)
+
+# load homeless shelter nodes
+LOAD CSV WITH HEADERS FROM "file:///homeless_shelter.csv" AS line
+CREATE (:HomelessShelter {shelterId: line.shelterId, date: toInteger(line.date), name: line.name,
+					target_demographic: line.target_demographic,
+					latitude: toFloat(line.latitude),
+					longitude: toFloat(line.longitude)})
+
+# create homeless shelter to itself relationships
+MATCH (s1:HomelessShelter), (s2:HomelessShelter) WHERE s1.name = s2.name AND s1.date - 1 = s2.date
+MERGE (s2)-[:PRECEDES]->(s1)
+
+# load tract nodes
+LOAD CSV WITH HEADERS FROM "file:///tract.csv" AS line
+CREATE (:Tract {name: line.name, date: toInteger(line.date),
+		    total_pop: toInteger(line.total_pop), 
+		    median_age: toInteger(line.median_age), 
+		    male_perc: toInteger(line.male_perc),
+		    female_perc: toInteger(line.female_perc),
+		    white_perc: toInteger(line.white_perc),
+		    black_perc: toInteger(line.black_perc),
+		    asian_perc: toInteger(line.asian_perc),
+		    other_ethnicity_perc: toInteger(line.other_perc),
+		    emp_employed_perc: toInteger(line.employed_perc),
+		    inc_income_median: toInteger(line.income_median),
+		    inc_income_mean: toInteger(line.income_mean),
+		    edu_college_undergrad_perc: toInteger(line.college_undergrad_perc),
+		    edu_k_12_enrolled_perc: toInteger(line.k_12_perc),
+		    edu_total_pop_above_25_w_bach_degree: toInteger(line.total_pop_above_25_w_bach_degree_perc),
+		    edu_stem_degree_perc: toInteger(line.stem_degree_perc),
+		    edu_stem_related_degree_perc: toInteger(line.stem_related_degree_perc),
+		    edu_business_degree_perc: toInteger(line.business_degree_perc),
+		    edu_education_degree_perc: toInteger(line.education_degree_perc),
+		    edu_humanities_degree_perc: toInteger(line.humanities_degree_perc),
+		    emp_unemployed_perc: toInteger(line.unemployed_perc),
+		    inc_income_below_poverty_perc: toInteger(line.income_below_poverty_perc),
+		    hl_health_insured_perc: toInteger(line.healthInsured_perc),
+       		t_mean_travel_work: toInteger(line.mean_travel_work),
+       		hs_occupied_units: toInteger(line.occupied_housing_units),
+       		hs_owned_units: toInteger(line.owned_housing_units),
+       		hs_rented_units: toInteger(line.rented_housing_units),
+       		hl_life_expectancy: toInteger(line.life_expectancy),
+       		hs_eviction_filings: toInteger(line.eviction_filings),
+       		hs_eviction_rate_perc: toInteger(line.eviction_rate_perc),
+       		inc_total_households_on_SNAP_est: toInteger(line.acs_SNAP_household_total),
+       		inc_white_households_on_SNAP_est: toInteger(line.acs_SNAP_household_white),
+       		inc_black_households_on_SNAP_est: toInteger(line.acs_SNAP_household_black),
+       		inc_asian_households_on_SNAP_est: toInteger(line.acs_SNAP_household_Asian),
+       		inc_total_pop_enrolled_SNAP: toInteger(line.total_enrolled_SNAP),
+       		inc_asian_pop_SNAP_enrollment_perc: toInteger(line.asian_SNAP_enrollment_perc),
+       		inc_black_pop_SNAP_enrollment_perc: toInteger(line.black_SNAP_enrollment_perc),
+       		inc_other_pop_SNAP_enrollment_perc: toInteger(line.other_SNAP_enrollment_perc),
+       		inc_white_SNAP_enrollment_perc: toInteger(line.white_SNAP_enrollment_perc),
+       		hs_num_households: toInteger(line.num_households),
+       		hs_single_parent_households: toInteger(line.single_parent_households),
+       		hs_mobile_home_households: toInteger(line.mobile_home_households),
+       		t_no_vehicle_households: toInteger(line.no_vehicle_households),
+       		edu_ppl_w_no_HS_diploma: toInteger(line.no_HS_diploma_households),
+       		edu_ppl_w_limited_english: toInteger(line.limited_english_households),
+       		hdi_index: toFloat(line.hdi_index),
+       		hl_binge_drinking_prev: toFloat(line.hl_binge_drinking_prev),
+       		hl_high_blood_pressure_prev: toFloat(line.hl_high_blood_pressure_prev),
+       		hl_cancer_prev: toFloat(line.hl_cancer_prev),
+       		hl_asthma_prev: toFloat(line.hl_asthma_prev),
+       		hl_heart_disease_prev: toFloat(line.hl_heart_disease_prev),
+       		hl_smoking_prev: toFloat(line.hl_smoking_prev),
+       		hl_dentist_visits_prev: toFloat(line.hl_dentist_visits_prev),
+       		hl_kidney_disease_prev: toFloat(line.hl_kidney_disease_prev),
+       		hl_poor_mental_health_prev: toFloat(line.hl_poor_mental_health_prev),
+       		hl_obesity_prev: toFloat(line.hl_obesity_prev),
+       		hl_poor_sleep_prev: toFloat(line.hl_poor_sleep_prev),
+       		hl_stroke_prev: toFloat(line.hl_stroke_prev),
+       		hs_subsidized_units: toInteger(line.hs_subsidized_units),
+       		hl_hl_VA_health_coverage: toInteger(line.hl_VA_health_coverage),
+       		hl_public_coverage: toInteger(line.hl_public_coverage),
+       		hl_medicare_coverage: toInteger(line.hl_medicare_coverage),
+       		hl_private_coverage: toInteger(line.hl_private_coverage),
+       		inc_no_internet_households: toInteger(line.inc_no_internet_households),
+       		inc_internet_households: toInteger(line.inc_internet_households),
+       		inc_median_monthly_rent: toInteger(line.hs_median_rent)})
+
+# create tract to itself relationships
+MATCH (t1:Tract), (t2:Tract) WHERE t1.name = t2.name AND t1.date - 1 = t2.date
+MERGE (t2)-[:PRECEDES]->(t1)
+
+# create tract adjacency relationships
+LOAD CSV WITH HEADERS FROM 'file:///tract_adj.csv' AS line
+WITH line.name1 as tract1, line.name2 as tract2, toInteger(line.date) as date
+MERGE (t1:Tract {name:tract1, date:date})
+MERGE (t2:Tract {name:tract2, date:date})
+MERGE (t1)<-[:ADJ_TO]->(t2)
+
+# load monthly tract nodes
+LOAD CSV WITH HEADERS FROM "file:///tract_monthly.csv" AS line
+CREATE (:Tract_m {name: line.name, year: toInteger(line.year), month: toInteger(line.month), 
+				total_enrolled_SNAP: toInteger(line.ppl_enrolled_snap)})
+
+# create tract_month to itself relationships
+MATCH (tm1:Tract_m), (tm2:Tract_m) WHERE tm1.name = tm2.name AND tm1.year = tm2.year AND tm1.month - 1 = tm2.month
+MERGE (tm2)-[:PRECEDES]->(tm1)
+
+# create tract to tract_month relationships
+MATCH (t:Tract), (tm:Tract_m) WHERE t.name = tm.name AND t.date = tm.year 
+MERGE (tm)-[:BELONGS_TO]->(t)
+
+# create county to tract relationships
+MATCH (c:County), (t:Tract) WHERE c.name = 'hennepin' AND c.date = t.date MERGE (c)-[:SERVES]->(t)
+
+# create county to district relationships
+MATCH (c:County), (d:District) WHERE c.name = 'hennepin' AND c.date = d.date MERGE (c)-[:SUPPORTS]->(d)
+
+# create county to food shelf relationships
+MATCH (c:County), (f:FoodShelf) WHERE c.name = 'hennepin' AND c.date = f.date MERGE (c)-[:SUPPORTS]->(f)
+
+# create county to hospital relationships
+MATCH (c:County), (h:Hospital) WHERE c.name = 'hennepin' AND c.date = h.date MERGE (c)-[:SUPPORTS]->(h)
+
+# create county to homeless shelter relationships
+MATCH (c:County), (s:HomelessShelter) WHERE c.name = 'hennepin' AND c.date = s.date MERGE (c)-[:SUPPORTS]->(s)
+
+# create county to city relationships
+MATCH (co:County), (ci:City) WHERE co.name = 'hennepin' AND co.date = ci.date MERGE (co)-[:SERVES]->(ci)
+
+# create county to neighborhood relationships
+MATCH (c:County), (n:Neighborhood) WHERE c.name = 'hennepin' AND c.date = n.date MERGE (c)-[:SERVES]->(n)
+
+# create district to tract relationships
+﻿LOAD CSV WITH HEADERS FROM 'file:///districts_to_tracts.csv' AS line
+WITH line.districtId as district, line.name as name, toInteger(line.date) as date
+MERGE (d:District {districtId:district, date:date})
+MERGE (t:Tract {name:name, date:date})
+MERGE (d)-[:EDUCATES]->(t)
+
+# create food shelf to tract relationships
+﻿LOAD CSV WITH HEADERS FROM 'file:///food_shelves_to_tracts.csv' AS line
+WITH line.shelfId as shelf, line.name as name, toInteger(line.date) as date
+MERGE (f:FoodShelf {shelfId:shelf, date:date})
+MERGE (t:Tract {name:name, date:date})
+MERGE (f)-[:LOCATES_IN]->(t)
+
+# create hospital to tract relationships
+﻿LOAD CSV WITH HEADERS FROM 'file:///hospitals_to_tracts.csv' AS line
+WITH line.hospitalId as hospital, line.name as name, toInteger(line.date) as date
+MERGE (h:Hospital {hospitalId:hospital, date:date})
+MERGE (t:Tract {name:name, date:date})
+MERGE (h)-[:LOCATES_IN]->(t)
+
+# create homeless shelter to tract relationships
+﻿LOAD CSV WITH HEADERS FROM 'file:///homeless_shelters_to_tracts.csv' AS line
+WITH line.shelterId as shelter, line.name as name, toInteger(line.date) as date
+MERGE (s:HomelessShelter {shelterId:shelter, date:date})
+MERGE (t:Tract {name:name, date:date})
+MERGE (s)-[:LOCATES_IN]->(t)
+
+# create city to tract relationships
+﻿LOAD CSV WITH HEADERS FROM 'file:///cities_to_tracts.csv' AS line
+WITH line.name as name, line.cityId as cityId, toInteger(line.date) as date
+MERGE (c:City {cityId:cityId, date:date})
+MERGE (t:Tract {name:name, date:date})
+MERGE (t)-[:LOCATES_IN]->(c)
+
+# create neighborhood to tract relationships
+﻿LOAD CSV WITH HEADERS FROM 'file:///neighborhoods_to_tracts.csv' AS line
+WITH line.name as name, line.neighborhood_name as n_name, toInteger(line.date) as date
+MERGE (n:Neighborhood {name:n_name, date:date})
+MERGE (t:Tract {name:name, date:date})
+MERGE (n)-[:LOCATES_IN]->(t)
+
+# inspect graph
+MATCH p = (c:County)-[:SUPPORTS]->() WHERE c.name = 'hennepin' AND c.date = 2019 RETURN p LIMIT 100
+MATCH p = (c:County)-[:SERVES]->() WHERE c.name = 'hennepin' AND c.date = 2019 RETURN p 

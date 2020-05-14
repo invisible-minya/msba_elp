@@ -1,0 +1,89 @@
+Code,Name in ACS table,Name in Database
+S2201_C01_001E,Estimate!!Total!!Households,inc_household_total
+S2201_C01_001M,Margin of Error!!Total MOE!!Households,inc_household_total_MA
+S2201_C01_002E,Estimate!!Total!!Households!!With one or more people in the household 60 years and over,inc_household_with_people_a60
+S2201_C01_002M,Margin of Error!!Total MOE!!Households!!With one or more people in the household 60 years and over,inc_household_with_people_a60_MA
+S2201_C01_004E,Estimate!!Total!!Households!!Married-couple family,inc_household_married_couple
+S2201_C01_004M,Margin of Error!!Total MOE!!Households!!Married-couple family,inc_household_married_couple_MA
+S2201_C01_005E,Estimate!!Total!!Households!!Other family,inc_household_other_family
+S2201_C01_005M,Margin of Error!!Total MOE!!Households!!Other family,inc_household_other_family_MA
+S2201_C01_008E,Estimate!!Total!!Households!!Nonfamily households,inc_household_non_family
+S2201_C01_008M,Margin of Error!!Total MOE!!Households!!Nonfamily households,inc_household_non_family_MA
+S2201_C01_009E,Estimate!!Total!!Households!!With children under 18 years,inc_household_with_child_u18
+S2201_C01_009M,Margin of Error!!Total MOE!!Households!!With children under 18 years,inc_household_with_child_u18_MA
+S2201_C01_021E,Estimate!!Total!!Households!!POVERTY STATUS IN THE PAST 12 MONTHS!!Below poverty level,inc_household_below_poverty
+S2201_C01_021M,Margin of Error!!Total MOE!!Households!!POVERTY STATUS IN THE PAST 12 MONTHS!!Below poverty level,inc_household_below_poverty_MA
+S2201_C01_023E,Estimate!!Total!!Households!!DISABILITY STATUS!!With one or more people with a disability,inc_household_with_disabled
+S2201_C01_023M,Margin of Error!!Total MOE!!Households!!DISABILITY STATUS!!With one or more people with a disability,inc_household_with_disabled_MA
+S2201_C01_025E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!White alone,inc_household_white
+S2201_C01_025M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!White alone,inc_household_white_MA
+S2201_C01_026E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Black or African American alone,inc_household_black
+S2201_C01_026M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Black or African American alone,inc_household_black_MA
+S2201_C01_027E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!American Indian and Alaska Native alone,inc_household_Indian
+S2201_C01_027M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!American Indian and Alaska Native alone,inc_household_Indian_MA
+S2201_C01_028E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Asian alone,inc_household_Asian
+S2201_C01_028M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Asian alone,inc_household_Asian_MA
+S2201_C01_029E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Native Hawaiian and Other Pacific Islander alone,inc_household_Hawaiian
+S2201_C01_029M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Native Hawaiian and Other Pacific Islander alone,inc_household_Hawaiian_MA
+S2201_C01_030E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Some other race alone,inc_household_other
+S2201_C01_030M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Some other race alone,inc_household_other_MA
+S2201_C01_031E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Two or more races,inc_household_2more
+S2201_C01_031M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Two or more races,inc_household_2more_MA
+S2201_C01_032E,Estimate!!Total!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Hispanic or Latino origin (of any race),inc_household_his
+S2201_C01_032M,Margin of Error!!Total MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Hispanic or Latino origin (of any race),inc_household_his_MA
+S2201_C01_034E,Estimate!!Total!!Households!!HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS)!!Median income (dollars),inc_household_median_income
+S2201_C01_034M,Margin of Error!!Total MOE!!Households!!HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS)!!Median income (dollars),inc_household_median_income_MA
+S2201_C01_035E,Estimate!!Total!!WORK STATUS!!Families,inc_family_total
+S2201_C01_035M,Margin of Error!!Total MOE!!WORK STATUS!!Families,inc_family_total_MA
+S2201_C01_036E,Estimate!!Total!!WORK STATUS!!Families!!No workers in past 12 months,inc_family_no_worker
+S2201_C01_036M,Margin of Error!!Total MOE!!WORK STATUS!!Families!!No workers in past 12 months,inc_family_no_worker_MA
+S2201_C01_037E,Estimate!!Total!!WORK STATUS!!Families!!1 worker in past 12 months,inc_family_one_worker
+S2201_C01_037M,Margin of Error!!Total MOE!!WORK STATUS!!Families!!1 worker in past 12 months,inc_family_one_worker_MA
+S2201_C03_001E,Estimate!!Households receiving food stamps/SNAP!!Households,SNAP_household_total
+S2201_C03_001M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households,SNAP_household_total_MA
+S2201_C03_002E,Estimate!!Households receiving food stamps/SNAP!!Households!!With one or more people in the household 60 years and over,SNAP_household_with_people_a60
+S2201_C03_002M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!With one or more people in the household 60 years and over,SNAP_household_with_people_a60_MA
+S2201_C03_003E,Estimate!!Households receiving food stamps/SNAP!!Households!!No people in the household 60 years and over,SNAP_household_no_people_a60
+S2201_C03_003M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!No people in the household 60 years and over,SNAP_household_no_people_a60_MA
+S2201_C03_004E,Estimate!!Households receiving food stamps/SNAP!!Households!!Married-couple family,SNAP_household_married_couple
+S2201_C03_004M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!Married-couple family,SNAP_household_married_couple_MA
+S2201_C03_005E,Estimate!!Households receiving food stamps/SNAP!!Households!!Other family,SNAP_household_other_family
+S2201_C03_005M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!Other family,SNAP_household_other_family_MA
+S2201_C03_008E,Estimate!!Households receiving food stamps/SNAP!!Households!!Nonfamily households,SNAP_household_non_family
+S2201_C03_008M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!Nonfamily households,SNAP_household_non_family_MA
+S2201_C03_009E,Estimate!!Households receiving food stamps/SNAP!!Households!!With children under 18 years,SNAP_household_with_child_u18
+S2201_C03_009M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!With children under 18 years,SNAP_household_with_child_u18_MA
+S2201_C03_021E,Estimate!!Households receiving food stamps/SNAP!!Households!!POVERTY STATUS IN THE PAST 12 MONTHS!!Below poverty level,SNAP_household_below_poverty
+S2201_C03_021M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!POVERTY STATUS IN THE PAST 12 MONTHS!!Below poverty level,SNAP_household_below_poverty_MA
+S2201_C03_023E,Estimate!!Households receiving food stamps/SNAP!!Households!!DISABILITY STATUS!!With one or more people with a disability,SNAP_household_with_disabled
+S2201_C03_023M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!DISABILITY STATUS!!With one or more people with a disability,SNAP_household_with_disabled_MA
+S2201_C03_025E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!White alone,SNAP_household_white
+S2201_C03_025M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!White alone,SNAP_household_white_MA
+S2201_C03_026E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Black or African American alone,SNAP_household_black
+S2201_C03_026M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Black or African American alone,SNAP_household_black_MA
+S2201_C03_027E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!American Indian and Alaska Native alone,SNAP_household_Indian
+S2201_C03_027M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!American Indian and Alaska Native alone,SNAP_household_Indian_MA
+S2201_C03_028E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Asian alone,SNAP_household_Asian
+S2201_C03_028M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Asian alone,SNAP_household_Asian_MA
+S2201_C03_029E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Native Hawaiian and Other Pacific Islander alone,SNAP_household_Hawaiian
+S2201_C03_029M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Native Hawaiian and Other Pacific Islander alone,SNAP_household_Hawaiian_MA
+S2201_C03_030E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Some other race alone,SNAP_household_other
+S2201_C03_030M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Some other race alone,SNAP_household_other_MA
+S2201_C03_031E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Two or more races,SNAP_household_2more
+S2201_C03_031M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Two or more races,SNAP_household_2more_MA
+S2201_C03_032E,Estimate!!Households receiving food stamps/SNAP!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Hispanic or Latino origin (of any race),SNAP_household_his
+S2201_C03_032M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!RACE AND HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER!!Hispanic or Latino origin (of any race),SNAP_household_his_MA
+S2201_C03_034E,Estimate!!Households receiving food stamps/SNAP!!Households!!HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS)!!Median income (dollars),SNAP_household_median_SNAPome
+S2201_C03_034M,Margin of Error!!Households receiving food stamps/SNAP MOE!!Households!!HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS)!!Median income (dollars),SNAP_household_median_SNAPome_MA
+S2201_C03_035E,Estimate!!Households receiving food stamps/SNAP!!WORK STATUS!!Families,SNAP_family_total
+S2201_C03_035M,Margin of Error!!Households receiving food stamps/SNAP MOE!!WORK STATUS!!Families,SNAP_family_total_MA
+S2201_C03_036E,Estimate!!Households receiving food stamps/SNAP!!WORK STATUS!!Families!!No workers in past 12 months,SNAP_family_no_worker
+S2201_C03_036M,Margin of Error!!Households receiving food stamps/SNAP MOE!!WORK STATUS!!Families!!No workers in past 12 months,SNAP_family_no_worker_MA
+S2201_C03_037E,Estimate!!Households receiving food stamps/SNAP!!WORK STATUS!!Families!!1 worker in past 12 months,SNAP_family_one_worker
+S2201_C03_037M,Margin of Error!!Households receiving food stamps/SNAP MOE!!WORK STATUS!!Families!!1 worker in past 12 months,SNAP_family_one_worker_MA
+S1902_C01_007E,Estimate!!Number!!HOUSEHOLD INCOME!!All households!!With Supplemental Security Income (SSI),SNAP_household_with_SSI
+S1902_C01_007M,Margin of Error!!Number MOE!!HOUSEHOLD INCOME!!All households!!With Supplemental Security Income (SSI),SNAP_household_with_SSI_MA
+S1902_C01_006E,Estimate!!Number!!HOUSEHOLD INCOME!!All households!!With Social Security income,SNAP_household_with_Social_Income
+S1902_C01_006M,Margin of Error!!Number MOE!!HOUSEHOLD INCOME!!All households!!With Social Security income,SNAP_household_with_Social_Income_MA
+S1902_C01_009E,Estimate!!Number!!HOUSEHOLD INCOME!!All households!!With cash public assistance income or Food Stamps/SNAP!!With cash public assistance,SNAP_household_with_cash_assist
+S1902_C01_009M,Margin of Error!!Number MOE!!HOUSEHOLD INCOME!!All households!!With cash public assistance income or Food Stamps/SNAP!!With cash public assistance,SNAP_household_with_cash_assist_MA
